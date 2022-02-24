@@ -1,0 +1,59 @@
+
+#Modus
+getmode <- function(v){
+ uniqv <- unique(data)
+ uniqv[which.max(tabulate(match(data, uniqv)))]
+}
+result <- getmode(data)
+print(result)
+
+#modus V2
+modus_man <- function(b) {
+  new <- unique(b)
+  new[which.max(tabulate(match(b, new)))]
+}
+modus_man(dataB)
+
+#median
+median_man <- function(v){
+  sorted <- sort(v)
+  n <- length(sorted)
+  if(n %% 2 == 0){
+    mid <- sorted[c(floor(n/2),floor(n/2)+1)]
+    med <- sum(mid)/2
+  } else {
+    med <- sorted[ceiling(n/2)]
+  }
+  med
+}
+
+#mean_man
+Jumlah_B <- sum(dataB)
+Banyak_B <- length(dataB)
+Mean_B <- Jumlah_B/Banyak_B
+Mean_B
+
+#median_man
+ManMedian <- function(b){
+  b <- sort(b)
+  if(length(b) %% 2 == 0){
+    index <- length(b)/2
+    (b[index]+b[index+1])/2
+  }
+  else{
+  b[(length(b)+1)/2]
+  }
+}
+ManMedian.dataB <- ManMedian(dataB)
+ManMedian(dataB)
+
+#varian_man
+mean <- mean(dataB)
+VarianMan <- sum((dataB-mean)^2/((length(dataB))-1))
+VarianMan
+
+#Stand_Deviasi
+mean <- mean(dataB)
+VarianMan <- sum((dataB-mean)^2/((length(dataB))-1))
+sqrt(VarianMan)
+
