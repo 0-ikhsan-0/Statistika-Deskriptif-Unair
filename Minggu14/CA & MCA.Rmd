@@ -1,0 +1,433 @@
+library(FactoMineR)
+library(factoextra)
+library(ca)
+library(ade4)
+library(MASS)
+library(ExPosition)
+library(cluster.datasets)
+library(flexclust)
+
+```{R}
+#Dataset 1
+# Preparation
+library(flexclust)
+library(FactoMineR)
+library(factoextra)
+library(corrplot)
+# CA
+data("achieve")
+ach.ca <- CA(achieve, graph = FALSE)
+ach.ca
+```
+
+```{R}
+# Statistical Significance
+# Chi
+Chi1 <- 1785.433
+
+# Degree of Freedom
+DF1 <- (1/(nrow(achieve)-1))*100
+DF1
+DF1.1 <- (1/(ncol(achieve)-1))*100
+DF1.1
+
+#P-Value
+PVal1 <- pchisq(Chi1, df = DF1, lower.tail = FALSE)
+PVal1
+```
+
+```{R}
+# EigenValues & Variances
+ach.ca.eig <- ach.ca$eig
+ach.ca.eig
+fviz_screeplot(ach.ca, addlabels = TRUE, ylim = c(0, 60))
+fviz_screeplot(ach.ca)+geom_hline(yintercept = DF1.1, linetype = 4, color = "black")
+```
+
+```{R}
+# biplot
+fviz_ca_biplot(ach.ca, repel = TRUE)
+```
+
+```{R}
+# Graph of Row Variable
+ach.ca.row <- ach.ca$row
+ach.ca.row
+
+# Visual Row Variables
+# Coord
+fviz_ca_row(ach.ca, col.row = "coord", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(ach.ca.row$coord, is.corr = FALSE)
+
+# Cos2
+fviz_ca_row(ach.ca, col.row = "cos2", gradient.col = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(ach.ca.row$cos2, is.corr = FALSE)
+
+#Contrib
+fviz_ca_row(ach.ca, col.row = "contrib", gradient.col = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(ach.ca.row$contrib, is.corr = FALSE)
+```
+
+```{R}
+# Graph of Column Variables
+ach.ca.col <- ach.ca$col
+ach.ca.col
+
+# Visual Row Variables
+# Coord
+fviz_ca_col(ach.ca, col.col = "coord", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(ach.ca.col$coord, is.corr = FALSE)
+
+# Cos2
+fviz_ca_col(ach.ca, col.col = "cos2", gradient.col = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(ach.ca.col$cos2, is.corr = FALSE)
+
+#Contrib
+fviz_ca_col(ach.ca, col.col = "contrib", gradient.col = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(ach.ca.col$contrib, is.corr = FALSE)
+```
+
+```{R}
+# Biplot Options
+# Asymmetric Biplot
+fviz_ca_biplot(ach.ca, map ="rowprincipal", arrow = c(TRUE, TRUE), repel = TRUE)
+
+#Contribution Biplot
+fviz_ca_biplot(ach.ca, map = "colgreen", arrow = c(TRUE, TRUE), repel = TRUE)
+```
+
+```{R}
+#Dimension Description
+ach.desc <- dimdesc(ach.ca, axes = c(1, 2))
+ach.desc
+```
+
+
+
+
+
+```{R}
+# Dataset 2
+# Preparation
+library(flexclust)
+library(FactoMineR)
+library(factoextra)
+library(corrplot)
+# CA
+data("VADeaths")
+va.ca <- CA(VADeaths, graph = FALSE)
+va.ca
+```
+
+```{R}
+# Statistical Significance
+# Chi
+Chi2 <- 1502.556
+
+# Degree of Freedom
+DF2<- (1/(nrow(VADeaths)-1))*100
+DF2
+DF2.1 <- (1/(ncol(VADeaths)-1))*100
+DF2.1
+
+#P-Value
+PVal2 <- pchisq(Chi2, df = DF2, lower.tail = FALSE)
+PVal2
+```
+
+```{R}
+# EigenValues & Variances
+va.ca.eig <- va.ca$eig
+va.ca.eig
+fviz_screeplot(va.ca, addlabels = TRUE, ylim = c(0, 85))
+fviz_screeplot(va.ca)+geom_hline(yintercept = DF2.1, linetype = 4, color = "black")
+```
+
+```{R}
+# biplot
+fviz_ca_biplot(va.ca, repel = TRUE)
+```
+
+```{R}
+# Graph of Row Variable
+va.ca.row <- va.ca$row
+va.ca.row
+
+# Visual Row Variables
+# Coord
+fviz_ca_row(va.ca, col.row = "coord", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(va.ca.row$coord, is.corr = FALSE)
+
+# Cos2
+fviz_ca_row(va.ca, col.row = "cos2", gradient.col = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(va.ca.row$cos2, is.corr = FALSE)
+
+#Contrib
+fviz_ca_row(va.ca, col.row = "contrib", gradient.col = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(va.ca.row$contrib, is.corr = FALSE)
+```
+
+```{R}
+# Graph of Column Variables
+va.ca.col <- va.ca$col
+va.ca.col
+
+# Visual Row Variables
+# Coord
+fviz_ca_col(va.ca, col.col = "coord", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(va.ca.col$coord, is.corr = FALSE)
+
+# Cos2
+fviz_ca_col(va.ca, col.col = "cos2", gradient.col = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(va.ca.col$cos2, is.corr = FALSE)
+
+#Contrib
+fviz_ca_col(va.ca, col.col = "contrib", gradient.col = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(va.ca.col$contrib, is.corr = FALSE)
+```
+
+```{R}
+# Biplot Options
+# Asymmetric Biplot
+fviz_ca_biplot(va.ca, map ="rowprincipal", arrow = c(TRUE, TRUE), repel = TRUE)
+
+#Contribution Biplot
+fviz_ca_biplot(va.ca, map = "colgreen", arrow = c(TRUE, TRUE), repel = TRUE)
+```
+
+```{R}
+#Dimension Description
+va.desc <- dimdesc(va.ca, axes = c(1, 2))
+va.desc
+```
+
+
+
+```{R}
+# Preparation
+library(flexclust)
+library(FactoMineR)
+library(factoextra)
+library(corrplot)
+# CA
+data("housetasks")
+ht.ca <- CA(housetasks, graph = FALSE)
+ht.ca
+```
+
+```{R}
+# Dataset 3
+# Statistical Significance
+# Chi
+Chi3 <- 2198.241
+
+# Degree of Freedom
+DF3 <- (1/(nrow(housetasks)-1))*100
+DF3
+DF3.1 <- (1/(ncol(housetasks)-1))*100
+DF3.1
+
+#P-Value
+PVal3 <- pchisq(Chi3, df = DF3, lower.tail = FALSE)
+PVal3
+```
+
+```{R}
+# EigenValues & Variances
+ht.ca.eig <- ht.ca$eig
+ht.ca.eig
+fviz_screeplot(ht.ca, addlabels = TRUE, ylim = c(0, 95))
+fviz_screeplot(ht.ca)+geom_hline(yintercept = DF3.1, linetype = 4, color = "black")
+```
+
+```{R}
+# biplot
+fviz_ca_biplot(ht.ca, repel = TRUE)
+```
+
+```{R}
+# Graph of Row Variable
+ht.ca.row <- ht.ca$row
+ht.ca.row
+
+# Visual Row Variables
+# Coord
+fviz_ca_row(ht.ca, col.row = "coord", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(ht.ca.row$coord, is.corr = FALSE)
+
+# Cos2
+fviz_ca_row(ht.ca, col.row = "cos2", gradient.col = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(ht.ca.row$cos2, is.corr = FALSE)
+
+#Contrib
+fviz_ca_row(ht.ca, col.row = "contrib", gradient.col = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(ht.ca.row$contrib, is.corr = FALSE)
+```
+
+```{R}
+# Graph of Column Variables
+ht.ca.col <- ht.ca$col
+ht.ca.col
+
+# Visual Row Variables
+# Coord
+fviz_ca_col(ht.ca, col.col = "coord", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(ht.ca.col$coord, is.corr = FALSE)
+
+# Cos2
+fviz_ca_col(ht.ca, col.col = "cos2", gradient.col = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(ht.ca.col$cos2, is.corr = FALSE)
+
+#Contrib
+fviz_ca_col(ht.ca, col.col = "contrib", gradient.col = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+corrplot(ht.ca.col$contrib, is.corr = FALSE)
+```
+
+```{R}
+# Biplot Options
+# Asymmetric Biplot
+fviz_ca_biplot(ht.ca, map ="rowprincipal", arrow = c(TRUE, TRUE), repel = TRUE)
+
+#Contribution Biplot
+fviz_ca_biplot(ht.ca, map = "colgreen", arrow = c(TRUE, TRUE), repel = TRUE)
+```
+
+```{R}
+#Dimension Description
+ht.desc <- dimdesc(ht.ca)
+ht.desc
+```
+
+
+
+
+
+```{R}
+# Dataset 1
+mca1 <- data("USMortality")
+mca1 <- USMortality[, c("Status", "Sex", "Cause")]
+mca1
+
+# MCA
+USM <- MCA(mca1, graph = FALSE)
+USM
+```
+
+```{R}
+# Eigen Values / Variances
+USM$eig
+fviz_screeplot(USM, addlabels = TRUE, ylim = c(0, 15))
+```
+
+```{R}
+# Biplot
+fviz_mca_biplot(USM, repel = TRUE)
+fviz_mca_biplot(USM, axes = c(1, 5), repel = TRUE)
+```
+
+```{R}
+# Graph of Variables
+USM$var
+
+# Coord
+fviz_mca_var(USM, col.var = "coord", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), axes = c(1, 5), repel = TRUE)
+
+# Cos2
+fviz_mca_var(USM, col.var = "cos2", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), axes = c(1, 5), repel = TRUE)
+
+# Contrib
+fviz_mca_var(USM, col.var = "contrib", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), axes = c(1, 5), repel = TRUE)
+
+```
+
+```{R}
+# Graph of Individuals
+USM$ind
+
+# Coord
+fviz_mca_ind(USM, col.ind = "coord", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), axes = c(5, 1), repel = TRUE)
+
+# Cos2
+fviz_mca_ind(USM, col.ind = "cos2", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), axes = c(5, 1), repel = TRUE)
+
+# Contrib
+fviz_mca_ind(USM, col.ind = "contrib", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), axes = c(5, 1), repel = TRUE)
+```
+
+```{R}
+# Color Individuals by Group
+fviz_ellipses(USM, c("Sex", "Cause"))
+```
+
+```{R}
+# Dimension Desctiptions
+USM.desc <- dimdesc(USM)
+USM.desc
+```
+
+
+```{R}
+# Dataset 2
+mca2 <- data("barley")
+mca2 <- barley[, c("variety", "year", "site")]
+mca2
+
+# MCA
+Bar <- MCA(mca2, graph = FALSE)
+Bar
+```
+
+```{R}
+# Eigen Values / Variances
+Bar$eig
+fviz_screeplot(Bar, addlabels = TRUE, ylim = c(0, 8))
+```
+
+```{R}
+# Biplot
+fviz_mca_biplot(Bar, repel = TRUE)
+```
+
+```{R}
+# Graph of Variables
+Bar$var
+
+# Coord
+fviz_mca_var(Bar, col.var = "coord", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+
+# Cos2
+fviz_mca_var(Bar, col.var = "cos2", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+
+# Contrib
+fviz_mca_var(Bar, col.var = "contrib", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+```
+
+```{R}
+# Graph of Individuals
+Bar$ind
+
+# Coord
+fviz_mca_ind(Bar, col.ind = "coord", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+
+# Cos2
+fviz_mca_ind(Bar, col.ind = "cos2", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+
+# Contrib
+fviz_mca_ind(Bar, col.ind = "contrib", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+```
+
+```{R}
+# Color Individuals by Group
+fviz_ellipses(Bar, c("variety", "site"))
+```
+
+```{R}
+# Dimension Desctiptions
+Bar.desc <- dimdesc(Bar)
+Bar.desc
+```
+
+```{R}
+# Dataset 3
+```
+

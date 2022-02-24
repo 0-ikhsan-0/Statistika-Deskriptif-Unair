@@ -1,0 +1,222 @@
+library(tidyverse)
+library(cluster.datasets)
+library(factoextra)
+library(flexclust)
+
+```{r}
+# Dataset 1
+
+data("nutrient")
+DataClus1 <- nutrient
+summary(DataClus1)
+DataClus1_Fix <- scale(DataClus1)
+DataClus1_Fix
+
+Clus1Dist <- dist(x = DataClus1_Fix, method = "euclidean")
+
+# Complete Linkage
+Clus1_Com <- hclust(d = Clus1Dist, method = "complete")
+Clus1_Com
+fviz_dend(Clus1_Com, cex = 0.5, main = "Cluster Dendrogram Complete Linkage")
+
+# Single Linkage
+Clus1_Sin <- hclust(d = Clus1Dist, method = "single")
+Clus1_Sin
+fviz_dend(Clus1_Sin, cex = 0.5, main = "Cluster Dendrogram Single Linkage")
+
+# Average Linkage
+Clus1_Ave <- hclust(d = Clus1Dist, method = "average")
+Clus1_Ave
+
+fviz_dend(Clus1_Ave, cex = 0.5, main = "Cluster Dendrogram Average Linkage")
+
+# Centroid Linkage
+Clus1_Cen <- hclust(d = Clus1Dist, method = "centroid")
+Clus1_Cen
+
+fviz_dend(Clus1_Cen, cex = 0.5, main = "Cluster Dendrogram Centroid Linkage")
+
+# Ward Linkage
+Clus1_War <- hclust(d = Clus1Dist, method = "ward.D2")
+Clus1_War
+
+fviz_dend(Clus1_War, cex = 0.5, main = "Cluster Dendrogram Ward Linkage")
+
+
+fviz_dend(Clus1_Com, k = 4, k_colors = "jco", rect = T, main = "Complete Linkage Cluster")
+fviz_dend(Clus1_Sin, k = 4, k_colors = "jco", rect = T, main = "Single Linkage Cluster")
+fviz_dend(Clus1_Ave, k = 4, k_colors = "jco", rect = T, main = "Average Linkage Cluster")
+fviz_dend(Clus1_Cen, k = 4, k_colors = "jco", rect = T, main = "Centroid Linkage Cluster")
+fviz_dend(Clus1_War, k = 4, k_colors = "jco", rect = T, main = "Ward Linkage Cluster")
+
+
+
+library (mclust)
+Clust1 <- as.matrix(nutrient)
+Cluster1<-Mclust(nutrient)
+summary(Cluster1)
+plot(Cluster1)
+
+```
+
+```{R}
+#Dataset 2
+
+data("achieve")
+DataClus2 <- achieve
+summary(DataClus2)
+DataClus2_Fix <- scale(DataClus2)
+DataClus2_Fix
+
+Clus2Dist <- dist(x = DataClus2_Fix, method = "euclidean")
+
+# Complete Linkage
+Clus2_Com <- hclust(d = Clus2Dist, method = "complete")
+Clus2_Com
+
+fviz_dend(Clus2_Com, cex = 0.5, main = "Cluster Dendrogram Complete Linkage")
+
+# Single Linkage
+Clus2_Sin <- hclust(d = Clus2Dist, method = "single")
+Clus2_Sin
+
+fviz_dend(Clus2_Sin, cex = 0.5, main = "Cluster Dendrogram Single Linkage")
+
+# Average Linkage
+Clus2_Ave <- hclust(d = Clus2Dist, method = "average")
+Clus2_Ave
+
+fviz_dend(Clus2_Ave, cex = 0.5, main = "Cluster Dendrogram Average Linkage")
+
+# Centroid Linkage
+Clus2_Cen <- hclust(d = Clus2Dist, method = "centroid")
+Clus2_Cen
+
+fviz_dend(Clus2_Cen, cex = 0.5, main = "Cluster Dendrogram Centroid Linkage")
+
+# Ward Linkage
+Clus2_War <- hclust(d = Clus2Dist, method = "ward.D2")
+Clus2_War
+
+fviz_dend(Clus2_War, cex = 0.5, main = "Cluster Dendrogram Ward Linkage")
+
+
+fviz_dend(Clus2_Com, k = 3, k_colors = "jco", rect = T, main = "Complete Linkage Cluster")
+fviz_dend(Clus2_Sin, k = 3, k_colors = "jco", rect = T, main = "Single Linkage Cluster")
+fviz_dend(Clus2_Ave, k = 2, k_colors = "jco", rect = T, main = "Average Linkage Cluster")
+fviz_dend(Clus2_Cen, k = 3, k_colors = "jco", rect = T, main = "Centroid Linkage Cluster")
+fviz_dend(Clus2_War, k = 3, k_colors = "jco", rect = T, main = "Ward Linkage Cluster")
+
+
+
+library (mclust)
+Clust2 <- as.matrix(achieve)
+Cluster2<-Mclust(achieve)
+summary(Cluster2)
+plot(Cluster2)
+```
+
+```{R}
+#Dataset 3
+
+data("milk")
+DataClus3 <- milk
+summary(DataClus3)
+DataClus3_Fix <- scale(DataClus3)
+DataClus3_Fix
+
+Clus3Dist <- dist(x = DataClus3_Fix, method = "euclidean")
+
+# Complete Linkage
+Clus3_Com <- hclust(d = Clus3Dist, method = "complete")
+Clus3_Com
+
+fviz_dend(Clus3_Com, cex = 0.5, main = "Cluster Dendrogram Complete Linkage")
+
+# Single Linkage
+Clus3_Sin <- hclust(d = Clus3Dist, method = "single")
+Clus3_Sin
+
+fviz_dend(Clus3_Sin, cex = 0.5, main = "Cluster Dendrogram single Linkage")
+
+# Average Linkage
+Clus3_Ave <- hclust(d = Clus3Dist, method = "average")
+Clus3_Ave
+
+fviz_dend(Clus3_Ave, cex = 0.5, main = "Cluster Dendrogram Average Linkage")
+
+# Centroid Linkage
+Clus3_Cen <- hclust(d = Clus3Dist, method = "centroid")
+Clus3_Cen
+
+fviz_dend(Clus3_Cen, cex = 0.5, main = "Cluster Dendrogram Centroid Linkage")
+
+# Ward Linkage
+Clus3_War <- hclust(d = Clus3Dist, method = "ward.D2")
+Clus3_War
+
+fviz_dend(Clus3_War, cex = 0.5, main = "Cluster Dendrogram Ward Linkage")
+
+
+fviz_dend(Clus3_Com, k = 4, k_colors = "jco", rect = T, main = "Complete Linkage Cluster")
+fviz_dend(Clus3_Sin, k = 4, k_colors = "jco", rect = T, main = "Single Linkage Cluster")
+fviz_dend(Clus3_Ave, k = 4, k_colors = "jco", rect = T, main = "Average Linkage Cluster")
+fviz_dend(Clus3_Cen, k = 4, k_colors = "jco", rect = T, main = "Centroid Linkage Cluster")
+fviz_dend(Clus3_War, k = 4, k_colors = "jco", rect = T, main = "Ward Linkage Cluster")
+
+
+
+library (mclust)
+Clust3 <- as.matrix(milk)
+Cluster3<-Mclust(milk)
+summary(Cluster3)
+plot(Cluster3)
+```
+
+```{R}
+#datasets 1
+fviz_nbclust(nutrient, kmeans, method = "silhouette")
+kmean1 <- kmeans(nutrient, 2)
+kmean1
+#datasets 2
+fviz_nbclust(achieve, kmeans, method = "silhouette")
+kmean2 <- kmeans(achieve, 2)
+kmean2
+#datasets 3
+fviz_nbclust(milk, kmeans, method = "silhouette")
+kmean3 <- kmeans(milk, 2)
+kmean3
+```
+
+```{R}
+library(factoextra)
+library(cluster)
+#datasets 1
+fviz_nbclust(nutrient, pam, method = "silhouette")
+kmedoid1 <- pam(nutrient, 2)
+summary(kmedoid1)
+#datasets 2
+fviz_nbclust(achieve, pam, method = "silhouette")
+kmedoid1 <- pam(achieve, 2)
+summary(kmedoid1)
+#datasets 3
+fviz_nbclust(milk, pam, method = "silhouette")
+kmedoid1 <- pam(milk, 2)
+summary(kmedoid1)
+```
+
+```{R}
+library(Gmedian)
+#datasets 1
+fviz_nbclust(nutrient, kGmedian, method = "silhouette")
+kmedian1 <- kGmedian(nutrient, 2)
+kmedian1
+#datasets 2
+fviz_nbclust(achieve, kGmedian, method = "silhouette")
+kmedian2 <- kGmedian(achieve, 2)
+kmedian2
+#datasets 3
+fviz_nbclust(milk, kGmedian, method = "silhouette")
+kmedian3 <- kGmedian(milk, 2)
+kmedian3
+```

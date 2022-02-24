@@ -1,0 +1,138 @@
+
+```{r}
+#No 1
+library(dplyr)
+PCA_Data <- select(mtcars, c(1:7, 10:11))
+head(PCA_Data[,-9])
+```
+
+```{r}
+#a. Tampilkan eigen valuenya (variansnya)
+PCA_Standardized <- scale(x = PCA_Data)
+Covarian_Matrix <- cov(PCA_Standardized)
+Nilai_Eigen <- eigen(Covarian_Matrix)
+Nilai_Eigen
+PCA_Analisis <- prcomp(x = PCA_Data, scale. = TRUE, center = TRUE)
+PCA_Analisis
+plot(PCA_Analisis, type = "l")
+```
+
+```{r}
+#b. tampilkan matriks PC nya
+PCA_Analisis_New <- princomp(x = PCA_Data)
+PCA_Analisis_New
+Covarian_Matrix <- cov(PCA_Standardized)
+Covarian_Matrix
+```
+
+```{r}
+#c. Plot di 2-dimensi untuk individunya
+library(factoextra)
+Visual_PCA_Cor <- prcomp(mtcars, scale = TRUE)
+fviz_pca_ind(Visual_PCA_Cor, col.ind = "cos2",gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+
+```
+
+```{r}
+library(factoextra)
+Visual_PCA_Cov <- prcomp(mtcars, scale = FALSE)
+fviz_pca_ind(Visual_PCA_Cov, col.ind = "cos2", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+
+```
+
+```{R}
+#d Plot di 2-dimensi untuk variabelnya
+fviz_pca_var(Visual_PCA_Cor, col.var = "contrib", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+```
+
+```{R}
+fviz_pca_var(Visual_PCA_Cov, col.var = "contrib", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+```
+
+```{R}
+#e.	Bi-Plot di 2-dimensi untuk individu dan variabelnya
+fviz_pca_biplot(Visual_PCA_Cor, repel = TRUE, col.var = "#2E9FDF", col.ind = "#600000")
+```
+
+```{R}
+fviz_pca_biplot(Visual_PCA_Cov, repel = TRUE, col.var = "#2E9FDF", col.ind = "#600000")
+```
+
+```{R}
+#f. Plot PC di 3-dimensi 
+library(rgl)
+plot3d(Visual_PCA_Cor$x, col = PCA_Data$mpg)
+```
+
+```{R}
+library(rgl)
+plot3d(Visual_PCA_Cov$x, col = PCA_Data$mpg)
+```
+
+
+
+
+
+```{R}
+#No 2
+PCA_Standardized <- scale(x = PCA_Data)
+Correlation_Matrix <- cor(PCA_Standardized)
+Nilai_Eigen_Cor <- eigen(Correlation_Matrix)
+Nilai_Eigen_Cor
+PCA_Analisis_Cor <- prcomp(x = PCA_Data, scale. = TRUE, center = TRUE)
+PCA_Analisis_Cor
+corrplot::corrplot(PCA_Analisis_Cor$rotation, type = "lower", order = "hclust", tl.col = "black", tl.srt = 45, method = "circle")
+```
+
+```{R}
+#a.	Tampilkan eigenvalue-nya (variansnya)
+Nilai_Eigen_Cor <- eigen(Correlation_Matrix)
+Nilai_Eigen_Cor
+PCA_Analisis_Cor <- princomp(x = PCA_Data, scale. = TRUE, center = TRUE)
+PCA_Analisis_Cor
+corrplot::corrplot(PCA_Analisis_Cor$loadings, type = "lower", order =
+"hclust", tl.col = "black", tl.srt = 45, method = "circle")
+```
+
+```{R}
+#b.	Tampilkan matriks PC-nya
+Correlation_Matrix <- cor(PCA_Standardized)
+Correlation_Matrix
+```
+
+```{R}
+#c.	Plot di 2-dimensi untuk individunya
+library(factoextra)
+Visual_PCA_Cor <- prcomp(Correlation_Matrix, scale = TRUE)
+fviz_pca_ind(visual.pca.cor, col.ind = "cos2", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+```
+
+```{R}
+library(factoextra)
+Visual_PCA_Cor <- princomp(Correlation_Matrix, scale = TRUE)
+fviz_pca_ind(Visual_PCA_Cor, col.ind = "cos2", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+```
+
+```{R}
+fviz_pca_var(Visual_PCA_Cor, col.var = "contrib", gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), repel = TRUE)
+```
+
+```{R}
+#d.	Plot di 2-dimensi untuk variabelnya
+PCA_Cor <- PCA_Data[1:23, 2:3, drop = FALSE]
+PCA_Cor_New <- cor(PCA_Cor)
+Correlation <- fviz_pca_var(Visual_PCA_Cor)
+fviz_add(Correlation, PCA_Cor_New, color = "blue", geom = "arrow")
+```
+
+```{R}
+#e.	Bi-Plot di 2-dimensi untuk individu dan variabelnya
+fviz_pca_biplot(Visual_PCA_Cor, repel = TRUE, col.var = "#2E9FDF", col.ind = "#696969")
+```
+
+```{R}
+#f.	Plot PC di 3-dimensi 
+library(rgl)
+plot3d(Visual_PCA_Cor$x, col = PCA_Data$gear)
+```
+
