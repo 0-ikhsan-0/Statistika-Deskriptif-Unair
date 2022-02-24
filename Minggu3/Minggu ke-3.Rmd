@@ -1,0 +1,163 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+
+Data1 <- sample(1:100,100000, replace = TRUE)
+
+x <- c(1:100)
+for (1 in x){
+quantile(Data1,x)
+if (x == 100){
+break
+}
+}
+
+
+#Quantil
+faktor <- c(1:4)
+for(i in faktor){
+x <- quantile(Data1,(i/4))
+print(x)
+}
+
+#Desil
+persen <- c(1:10)
+for(i in persen){
+y <- quantile(Data1,(i/10))
+print(y)
+}
+
+#Persentil
+vektor <- c(1:100)
+for(i in vektor){
+z <- quantile(Data1,(i/100))
+print(z)
+
+}
+
+kuartil <- function(dataku, n){
+ DataKe <- (n/4)*length(dataku)
+ print(dataku[DataKe])
+}
+
+desil <- function(dataku, n){
+ DataKe <- (n/10)*length(dataku)
+ print(dataku[DataKe])
+}
+
+persentil <- function(dataku, n){
+ DataKe <- (n/100)*length(dataku)
+ print(dataku[DataKe])
+}
+
+BagiData <- function(dataku,maks){
+ if (maks == 4){
+  for(n in maks){
+   kuartil(dataku,n)
+   }
+ }
+ else if (maks == 10){
+  for(n in maks){
+   desil(dataku,n)
+   }
+ }
+ else if (maks == 100){
+  for(n in maks){
+   persentil(dataku,n)
+   }
+ }
+}
+
+#no1 a(1)
+Kuartil_A <- quantile(NamaData)
+Desil_A <- quantile(NamaData, c(0:10)/10)
+Persentil_A <- quantile(NamaData, c(0;100)/100)
+
+#no1 a(2)
+kuartil <- function(x){
+ kuartil.x <- quantile(x, seq(0, 1,0.25))
+ kuartil.x
+}
+
+desil <- function(x){
+ desil.x <- quantile(x, seq(0, 1,0.1))
+ desil.x
+}
+
+persentil <- function(x){
+ persentil.x <- quantile(x, seq(0, 1,0.01))
+ persentil.x
+}
+
+#no1 b
+range()
+sd()
+
+#no2
+MyData_1.1 <- c(sample(1:90, 50000, replace = TRUE), sample(90:190, 70000, replace = TRUE), sample(190:300, 120000, replace = TRUE), sample(300:400, 155000, replace = TRUE), sample(400:500, 110000, replace = TRUE))
+hist(MyData_1.1)
+
+#no3
+MyData_1.2 <- c(sample(1:75, 50000, replace = TRUE), sample(75:125, 75000, replace = TRUE), sample(125:200, 150000, replace = TRUE), sample(200:350, 140000, replace = TRUE), sample(350:500, 85000, replace = TRUE))
+hist(MyData_1.2)
+
+#no4
+MyData_1.3 <- c(sample(1:100, 85000, replace = TRUE), sample(100:200, 100000, replace = TRUE), sample(200:300, 130000, replace = TRUE), sample(300:400, 100000, replace = TRUE), sample(400:500, 85000, replace = TRUE))
+hist(MyData_1.3)
+
+#no5
+MyData_1.4 <- c(sample(1:100, 55000, replace = TRUE), sample(100:200, 85000, replace = TRUE), sample(200:300, 150000, replace = TRUE), sample(240:280, 70000, replace = TRUE), sample(300:400, 85000, replace = TRUE), sample(400:500, 55000, replace = TRUE))
+hist(MyData_1.4)
+
+#no6
+kemiringan = function(data){
+kemiringan = length(data) * (sum(data-mean(data))^3) / ((length(data)-1) * (length(data)-2) * (sd(data))^3)
+kemiringan
+}
+
+keruncingan = function(data){
+runcing1 <- (length(data) * (length(data)+1) * (sum((data-mean(data))^4))) / ((length(data)-1) * (length(data)-2) * (length(data)-3) * (sd(data))^4)
+runcing2 <- 3 * ((length(data)-1)^2) / ((length(data)-2) * (length(data)-3))
+keruncingan = runcing1-runcing2
+keruncingan
+}
+
+#no7
+Bil <- sample (1:100, 10, replace = TRUE)
+Bil
+barplot(Bil)
+#sort_mode
+barplot(sort(Bil))
+
+#no8
+MyData2 <- c(1, sample(50:100, 999, replace = TRUE))
+boxplot(MyData2)
+
+#no 9
+Bil4 <- sample(1:1000, 1000, replace = TRUE)
+boxplot(Bil4)
+
+> keruncingan = function(data){
++ runcing1 <- (length(data) * (length(data)+1) * (sum((data-mean(data))^4))) / ((length(data)-1) * (length(data)-2) * (length(data)-3) * (sd(data))^4)
++ runcing2 <- 3 * ((length(data)-1)^2) / ((length(data)-2) * (length(data)-3))
++ keruncingan = runcing1-runcing2
++ keruncingan
++ }
+> keruncingan(MyData_1.4)
+[1] 0.738092
