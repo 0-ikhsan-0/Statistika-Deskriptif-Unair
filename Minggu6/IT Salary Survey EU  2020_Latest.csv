@@ -1,0 +1,1106 @@
+Age,Gender,Experience_Years,Year_Salary,Bonus_Stocks,Vacation_Days,Work_Language,Company_Type,Fired_By_Corona
+26,Male,5,80000,5000,30,English,Product,No
+26,Male,7,80000,0,28,English,Product,No
+29,Male,12,120000,120000,30,English,Product,Yes
+28,Male,4,54000,0,24,English,Startup,No
+37,Male,17,62000,0,29,English,Product,No
+32,Male,5,76000,5000,30,English,Startup,No
+37,Male,6,57000,0,24,English,Product,No
+24,Male,5,65000,0,27,English,Product,No
+29,Male,8,56000,0,28,English,Product,No
+35,Male,15,95000,0,30,English,Product,No
+32,Female,2,52500,0,30,German,Consulting / Agency,No
+34,Male,14,70000,0,28,English,Startup,No
+28,Male,11,75000,9400,30,English,Product,Yes
+31,Male,5,75000,2000,25,English,Consulting / Agency,No
+41,Male,18,78000,0,28,English,Startup,Yes
+27,Male,8,60000,0,25,English,Product,No
+34,Male,11,80000,80000,28,English,Product,No
+34,Male,15,100000,0,24,English,Product,No
+25,Male,5,65000,0,28,German,Product,No
+59,Male,30,69000,0,28,German,Product,No
+36,Male,17,70000,0,28,English,Product,No
+38,Male,18,80000,4000,28,English,Product,Yes
+24,Male,6,75000,10000,27,English,Product,No
+37,Male,6,47400,1000,28,German,Media,No
+40,Male,13,70000,0,28,English,Product,No
+29,Male,6,85000,5000,28,English,Product,No
+31,Male,5,65000,0,28,English,Startup,No
+29,Female,7,45000,2000,26,English,Startup,No
+39,Male,8,80000,0,29,English,Startup,No
+27,Male,8,63000,101,24,English,Product,No
+33,Male,5,150000,80000,24,English,Product,No
+28,Female,7,45000,0,28,German,Product,No
+30,Male,8,80000,0,28,English,Product,No
+28,Male,5,75000,0,25,English,Startup,No
+38,Male,10,70000,0,30,English,Startup,No
+29,Male,7,72000,12000,27,English,Product,No
+49,Male,15,67000,1500,29,German,Product,No
+32,Male,10,105000,0,60,English,Product,Yes
+30,Male,6,74000,15000,27,English,Product,No
+48,Male,25,75000,0,28,English,Product,No
+28,Female,5,60000,0,20,English,Product,No
+32,Male,3,77000,0,30,English,Product,No
+38,Female,12,70000,8000,28,English,Product,No
+31,Male,7,76000,10000,27,English,Startup,No
+35,Male,10,75000,0,30,English,Product,No
+28,Female,7,45000,0,28,German,Product,No
+29,Female,8,60000,0,28,English,Startup,Yes
+32,Male,8,65000,0,30,English,Product,No
+44,Male,12,68000,0,26,English,Product,No
+35,Male,11,65000,5000,29,German,Product,No
+29,Male,5,75000,0,30,English,Product,No
+66,Male,40,70000,0,30,German,Product,No
+39,Female,10,70500,1000,30,German,Consulting / Agency,No
+28,Male,5,72000,0,28,English,Product,No
+34,Male,5,73500,0,27,English,Product,No
+34,Male,13,72000,72000,30,English,Product,No
+32,Male,7,62000,0,30,German,Consulting / Agency,No
+32,Male,10,110000,30000,30,English,Consulting / Agency,No
+45,Male,26,93000,10000,30,German,Product,No
+28,Male,3,55000,0,22,English,Startup,No
+29,Male,6,53000,0,26,English,Startup,No
+36,Male,15,55000,0,28,English,Product,No
+39,Male,10,75000,0,30,German,Consulting / Agency,No
+29,Male,7,80000,5000,24,English,Product,No
+31,Male,11,80000,0,27,English,Startup,No
+30,Male,5,55000,0,27,English,Product,No
+30,Male,8,70200,75000,30,English,Product,No
+33,Male,4,50000,0,24,English,Consulting / Agency,No
+27,Male,5,78000,0,30,English,Startup,No
+26,Female,6,60000,10000,26,English,Product,No
+26,Male,8,85000,0,28,English,Product,No
+31,Female,6,60000,0,27,English,Startup,No
+30,Male,10,72000,0,28,English,Product,No
+38,Male,17,68500,30000,25,English,Product,No
+43,Male,5,72000,0,30,English,Product,No
+33,Male,5,65000,0,30,English,Product,No
+31,Male,9,60000,0,25,English,Startup,No
+32,Female,10,61000,0,30,English,Product,No
+24,Male,4,73000,73000,24,English,Startup,No
+29,Male,7,78000,10000,28,English,Product,No
+29,Male,4,81000,0,29,English,Product,No
+30,Male,5,75000,10000,30,English,Product,No
+35,Female,3,55000,3000,31,German,Product,No
+27,Female,6,50000,0,28,English,Product,No
+32,Female,8,55000,0,27,German,Consulting / Agency,No
+33,Male,5,60000,0,30,English,Product,No
+28,Male,8,80000,0,30,English,Product,No
+31,Female,14,80000,0,30,German,Product,No
+32,Male,7,60000,0,38,English,Product,No
+30,Male,8,80000,0,25,English,Product,No
+26,Male,7,78000,4000,27,English,Product,No
+31,Male,10,68000,0,30,English,Product,No
+38,Female,6,62000,0,26,English,Product,No
+37,Male,10,55000,0,26,English,Startup,No
+25,Male,3,62000,0,30,English,Product,No
+36,Male,12,72000,0,26,English,Startup,No
+27,Male,5,58000,5800,30,English,Product,No
+35,Male,12,120000,30000,30,English,Product,No
+37,Male,15,75000,0,30,German,Product,No
+26,Male,3,65000,7000,30,English,Product,No
+33,Male,6,85000,40000,28,English,Product,No
+34,Male,7,65000,0,25,English,Startup,No
+33,Male,12,65000,0,27,English,Product,No
+29,Male,8,72000,0,25,English,Startup,No
+24,Male,5,79000,56000,30,English,Product,No
+28,Female,6,65000,3000,25,English,Product,No
+30,Female,8,75000,0,35,English,Product,No
+28,Male,8,60000,12000,28,English,Consulting / Agency,No
+31,Male,11,80000,4000,30,English,Product,No
+28,Male,5,57000,8000,30,English,Product,No
+32,Female,10,49000,0,30,English and German,Product,No
+28,Male,6,65000,75000,28,English,Startup,No
+26,Female,3,70000,12000,28,English,Product,No
+33,Male,6,63000,6300,28,English,Product,No
+41,Male,18,72000,0,30,English,Product,No
+31,Male,9,60000,6000,25,English,Startup,No
+30,Male,6,75000,101,28,English,Product,No
+31,Male,8,70000,101,24,English,Startup,No
+37,Male,12,62000,5000,28,English,Product,No
+34,Male,17,120000,20000,32,German,Consulting / Agency,No
+25,Male,5,75000,5000,24,English,Product,No
+36,Male,19,69000,0,28,English,Product,No
+40,Male,7,54000,0,24,English,Product,No
+37,Male,6,62000,62000,30,German,Product,No
+35,Male,13,80000,1500,40,English,Product,No
+42,Male,20,80000,0,27,German,Product,No
+34,Male,10,75000,3000,28,English,Startup,No
+30,Male,6,75000,75000,30,English,Product,No
+35,Male,12,70000,22000,25,English,Product,No
+34,Male,10,120000,40000,30,English,Cloud,No
+35,Male,10,70000,0,25,English,Product,No
+35,Male,14,44000,0,27,English,Startup,No
+28,Male,7,80000,5000,30,English,Product,No
+26,Male,5.5,48000,2000,26,German,Product,No
+35,Male,4,50000,5000,28,English,Product,No
+31,Female,7,68000,0,30,English,Product,No
+35,Male,12,66000,0,25,German,Consulting / Agency,No
+28,Male,3,51000,1500,27,English,Product,No
+25,Male,4,60000,0,24,English,Startup,No
+42,Female,20,55000,0,30,English,Product,No
+30,Male,7,150000,0,25,English,Startup,No
+40,Female,20,54000,0,30,German,Behörde,No
+36,Female,14,62000,0,30,English,Product,No
+37,Male,8,60000,0,28,English,Product,No
+33,Male,10,75000,7500,30,English,Product,No
+38,Male,11,55000,0,26,English,Product,No
+27,Male,4,60000,0,28,English,Product,No
+33,Male,7,62000,67000,30,English,Consulting / Agency,No
+34,Male,12,77500,7750,25,English,Consulting / Agency,No
+36,Female,5,60000,5000,28,English,Product,No
+42,Male,22,70000,0,24,English,Startup,No
+32,Male,10,68500,6000,25,English,Product,No
+31,Male,10,71060,101,28,English,Startup,No
+33,Female,6,60000,0,28,English,Startup,No
+40,Male,10,100000,0,24,English,Product,No
+28,Male,6,70000,2000,30,English,Consulting / Agency,No
+31,Male,9,90000,0,30,English,Product,No
+28,Male,5,70800,0,28,English,Consulting / Agency,No
+29,Male,8,55000,0,24,English,Startup,No
+40,Male,25,85000,5000,30,English,Product,No
+46,Male,13,70000,8500,28,German,Product,No
+33,Male,5,66000,70000,30,English,Product,No
+33,Male,10,62000,0,28,English,Startup,No
+34,Male,14,95000,5000,30,English,Product,No
+36,Male,18,65000,70000,26,English,Product,No
+33,Female,8,50000,0,24,English,Startup,Yes
+32,Male,11,80000,0,28,English,Product,No
+46,Male,14,80000,0,30,English,Product,Yes
+30,Male,8,66000,0,30,English,Product,No
+31,Male,10,115000,70000,28,English,Product,No
+46,Male,12,85000,10000,30,German,Product,No
+26,Male,6,70000,0,30,English,Product,No
+31,Male,10,45000,0,30,English,Product,Yes
+31,Male,12,85000,3000,29,English,Startup,No
+30,Female,5,50000,4000,30,German,Product,No
+35,Male,13,140000,6000,28,English,Consulting / Agency,No
+33,Male,12,120000,0,28,English,Product,No
+36,Male,7,42000,0,25,English and German,Product,No
+36,Male,12,105000,25000,28,English,Product,No
+40,Male,13,77000,101,30,English,Product,No
+38,Male,6,68000,12000,30,English,Product,No
+35,Female,15,76000,0,30,German,Product,No
+32,Male,9,70000,4000,26,English,Product,No
+29,Male,8,70000,5000,30,English,Product,No
+30,Male,9,63000,0,30,German,Product,No
+35,Male,10,96000,4000,30,English,Product,No
+29,Male,7,64000,0,30,English,Startup,No
+32,Female,10,60000,6000,30,English,Consulting / Agency,No
+30,Female,10,65000,5000,30,English,Product,No
+25,Male,6,61500,26000,28,English,Big commercial,No
+43,Male,20,79000,0,27,English,Product,No
+38,Male,16,65000,0,26,English,Product,No
+26,Male,5,63000,10300,28,English,Product,No
+25,Female,3,62000,0,30,English,Product,No
+34,Male,12,95000,0,30,English,Product,No
+34,Male,11,60000,0,28,English,Startup,No
+27,Male,5,65000,0,30,English,Product,No
+30,Male,3,58000,0,28,English,Startup,No
+34,Male,5,65000,5000,30,English,Product,No
+36,Female,14,69000,6900,30,English,Product,No
+27,Male,5,65000,0,30,English,Product,No
+45,Male,10,77000,2000,28,English,Product,No
+35,Male,6,74000,2000,30,English,Product,No
+36,Male,7,80000,95000,26,English,Product,No
+32,Male,9,60000,4700,30,German,Consulting / Agency,No
+33,Male,14,70000,0,30,English,Product,No
+30,Male,10,56000,0,30,English,Product,No
+35,Male,15,70000,0,28,English,Startup,Yes
+24,Male,0.8,48000,101,30,English,Product,No
+25,Male,4,60000,0,30,German,Consulting / Agency,No
+29,Male,8,65000,0,26,English,Product,No
+32,Male,10,100000,0,30,English,Product,No
+32,Male,11,60000,62000,30,English,Consulting / Agency,No
+24,Male,3,58000,18000,28,English,Consulting / Agency,No
+24,Female,2,55200,2000,30,English,Consulting / Agency,No
+56,Male,9,75000,0,30,German,Product,No
+25,Male,1,65000,2000,30,English,Product,No
+32,Male,9,95000,140000,365,English,Product,No
+28,Male,8,67200,0,30,English,Outsorce,No
+30,Male,7,100000,75000,30,English,Product,No
+26,Female,6,65000,1000,27,English,Product,No
+31,Female,4,65000,73000,30,German,Product,No
+31,Male,9,92500,22500,30,English,Product,No
+29,Female,6,54000,0,26,English,Product,No
+33,Male,15,100000,10000,30,English,Startup,No
+26,Male,1.5,58000,0,30,German,Consulting / Agency,No
+30,Female,6,70000,2000,30,German,Bank ,No
+34,Male,14,72000,0,26,English,Product,No
+37,Male,12,90000,0,30,English,Consulting / Agency,No
+38,Male,16,99000,112000,25,English,Fintech,No
+28,Male,9,61200,7300,30,English,Automotive,No
+35,Male,14,80000,5000,30,German,Product,No
+31,Male,10,60000,77000,28,English,Product,No
+29,Male,1,45000,2000,30,German,Consulting / Agency,No
+39,Male,5,56000,17000,30,German,Product,No
+31,Female,11,32000,0,27,English,Startup,No
+29,Male,8,95000,7000,30,English,Product,No
+36,Male,1,37500,0,28,German,Startup,Yes
+33,Male,10,67000,0,29,English,Product,No
+37,Male,15,72000,10000,36,English,Product,Yes
+34,Male,7,72000,0,28,English,Startup,No
+30,Male,4,42000,0,27,English,Product,No
+34,Male,14,95000,10000,24,English,Startup,No
+43,Male,5,64000,6000,28,English,Product,No
+32,Female,2,52000,4000,30,English,Product,No
+34,Male,14,60000,60000,23,English,Consulting / Agency,No
+29,Male,9,85000,0,30,English,Product,No
+37,Male,14,84000,0,30,English,IT Department of established business,No
+41,Male,19,123600,0,33,English,Product,No
+33,Male,6,49000,0,28,English,Startup,No
+33,Female,9,57000,0,21,English,Startup,No
+40,Male,18,78000,8000,30,German,Product,No
+38,Male,12,70000,1500,30,German,Telecommunications,No
+29,Male,5,57000,0,26,English,Product,No
+27,Male,7,72000,15000,30,English,Product,No
+39,Male,10,120000,200000,25,English,Product,No
+33,Female,6.5,58000,3500,30,English,Product,No
+38,Male,10,92000,101,30,English,Consulting / Agency,No
+42,Male,20,80000,0,30,German,Product,No
+45,Female,6,55000,0,28,English,Product,No
+38,Male,12,73000,7000,30,English,Product,No
+29,Male,9,62000,8000,28,English,Startup,No
+30,Male,11,55000,0,30,English,Startup,No
+41,Male,21,80000,0,30,English,Product,No
+34,Male,10,85000,25000,28,English,Product,No
+45,Male,25,75000,20000,30,German,Product,No
+34,Male,6,62000,70000,28,German,Media,No
+25,Male,7,60000,0,26,English,Startup,Yes
+32,Male,12,66800,0,25,English,Product,No
+65,Male,25,55000,0,30,German,Product,No
+34,Male,12,90000,0,27,English,Product,No
+28,Male,7,70000,0,30,English,Product,No
+39,Male,17,64000,70000,28,English,Product,No
+30,Male,7,72000,0,25,English,Product,No
+34,Male,12,70000,0,25,English,Product,No
+35,Male,10,63500,63500,28,English,Product,No
+35,Female,12,70000,0,29,English,E-commerce,No
+34,Male,10,68000,0,40,English,Startup,No
+34,Male,12,78000,8000,36,German,Product,No
+38,Male,13,89570,20240,30,English,Product,No
+34,Female,9,78000,3000,30,English,Product,No
+31,Male,7,80000,0,27,English,Product,No
+34,Male,15,70000,70000,30,English,Product,No
+29,Female,5,67000,5000,31,English,Product,No
+37,Male,15,85000,5000,30,English,Product,No
+44,Male,22,76000,0,30,English,Startup,No
+30,Male,9,66000,0,30,English,Product,No
+26,Male,4,65000,70000,30,German,Consulting / Agency,No
+46,Male,14,80000,0,30,English,Product,Yes
+27,Male,4,46000,2000,30,German,Product,No
+38,Male,15,56400,0,30,English,Product,No
+32,Male,11,81200,81200,30,English,Product,No
+26,Male,7,65000,0,30,English,Product,No
+29,Male,12,75000,75000,27,English,Product,No
+32,Male,8,60000,0,30,German,Consulting / Agency,Yes
+29,Male,5,55000,4000,24,English,Product,No
+33,Male,10,75000,0,30,English,Product,No
+32,Male,9,76000,0,28,English,Product,No
+34,Male,10,76000,12000,30,English,Product,No
+31,Male,2.5,20000,6500,30,Russian,Bank,No
+33,Male,10,78000,0,30,German,Product,No
+32,Male,4,65000,0,28,English,Product,No
+47,Male,22,46000,46000,30,English,Product,No
+29,Male,8,65000,0,30,English,Product,No
+28,Male,5,67000,2000,20,English,Startup,Yes
+25,Male,2,48000,5000,28,German,Product,No
+32,Male,9,70800,5000,30,German,Consulting / Agency,No
+45,Male,3,70000,0,25,Russian,Startup,Yes
+26,Male,3,48000,0,27,English,Consulting / Agency,No
+29,Male,8,65400,0,30,English,Consulting / Agency,No
+40,Male,18,60000,0,28,English,Product,No
+27,Male,5,71000,5000,30,English,Product,No
+27,Male,5,65000,0,22,English,Product,No
+38,Male,20,44000,0,25,German,Systemhaus,No
+22,Male,3,27000,0,21,Polish,Consulting / Agency,No
+30,Male,9,90000,0,30,English,Product,No
+30,Male,6,60000,6000,30,English,Product,No
+29,Male,8,73000,400,30,English,Product,No
+37,Male,15,67500,7500,30,English,Product,No
+28,Male,6,66000,122.13,27,English,Product,No
+28,Female,8,80000,0,28,English,Product,No
+28,Male,5,55000,5000,30,German,Product,No
+33,Male,13,75000,20000,27,English,Product,No
+38,Male,7,54500,0,30,German,Consulting / Agency,No
+40,Male,22,72000,5000,30,German,Product,No
+28,Male,9,60000,0,28,English,Startup,No
+29,Male,11,85000,4000,30,English,Product,No
+24,Male,3,10164,0,14,English,University,No
+44,Male,28,78500,0,30,English,Product,No
+35,Male,5,56000,56000,30,English,Product,No
+32,Male,12,83000,500,27,English,Product,No
+28,Female,4,53000,0,30,English,Consulting / Agency,No
+33,Male,10,65000,0,27,English,Product,No
+46,Male,10,68500,0,28,English,Startup,No
+27,Male,8,45000,0,28,English,Product,No
+32,Male,5,72000,0,30,English,Product,No
+34,Male,15,80000,12000,28,English,Product,No
+33,Male,10,68000,0,25,English,Startup,No
+26,Male,4,24000,0,20,English,Consulting / Agency,No
+41,Male,19,95500,14500,30,English,Product,No
+35,Male,14,72000,77000,35,English,Product,No
+26,Male,7,72000,0,27,German,Consulting / Agency,No
+24,Male,3,77600,43500,30,English,Product,No
+35,Male,13,95000,15000,25,English,Startup,No
+31,Male,7,50400,50400,27,English,Product,No
+30,Male,2,13000,0,28,Russian,Startup,No
+37,Male,20,130000,20000,25,English,Consulting / Agency,No
+30,Male,5,14712,0,30,Russian,Product,No
+33,Male,5,70000,800,30,German,Product,No
+35,Male,11,74400,0,30,English,Product,No
+37,Male,15,70000,0,25,English,Startup,No
+36,Male,10,82000,0,30,German,Product,No
+32,Female,4,85000,88000,30,English,consumer goods,No
+38,Male,5,80000,0,30,English,Startup,No
+23,Male,4,70500,0,30,English,Product,No
+39,Male,11,75000,0,30,English,Product,No
+27,Female,3,58000,1000,24,English,Product,No
+50,Male,29,28800,28800,30,German,IT-Outsourcing,No
+35,Male,11,66000,2000,28,English,Product,No
+29,Male,10,80000,0,30,English,Product,No
+30,Male,8,75000,86000,24,English,Startup,No
+24,Male,3,44000,3000,26,English,Product,No
+28,Male,8,75000,0,28,English,Product,No
+28,Male,9,60000,1000,25,English,Product,No
+37,Male,8,76900,77400,26,English,Product,No
+33,Male,10,85000,0,26,English,Startup,No
+30,Male,8,27000,0,21,Русский,Product,No
+30,Male,4,55000,0,27,English,Product,No
+31,Male,4,95000,0,28,English,Startup,No
+28,Female,3,60000,0,28,English,Startup,No
+31,Female,2,58000,3000,28,German,Product,No
+34,Male,9,72000,12,27,English,Product,No
+24,Male,4,46000,0,28,English,Startup,No
+39,Male,15,70000,0,21,English,Product,No
+42,Male,20,75000,0,25,English,Product,No
+26,Male,8,105000,60000,30,English,Startup,No
+31,Female,2,50000,0,28,English,Consulting / Agency,No
+32,Female,7,63000,0,26,English,Product,No
+30,Female,4,52000,0,20,English,Startup,No
+23,Male,3,65000,65000,25,English,Startup,No
+27,Male,4,62000,62000,25,English,Product,No
+29,Male,8,69000,74000,30,English,Product,No
+32,Male,10,88000,120000,30,English,Product,No
+31,Male,11,81000,0,28,English,Startup,No
+29,Male,2,18700,19200,22,Polish,Product,No
+26,Male,7,60000,5000,27,English,Startup,No
+29,Male,5,56000,0,30,English,Product,No
+30,Male,7,55000,0,28,English,Product,No
+38,Male,10,70000,0,24,English,Product,Yes
+32,Male,10,200000,200000,28,English,Product,Yes
+25,Male,6,100000,20000,30,English,Product,No
+24,Male,3,48000,0,28,English,Game Company,No
+24,Male,3,30000,0,28,English,Product,No
+27,Male,3,21120,3520,21,Czech,Product,No
+34,Female,6,67500,0,30,English,Product,No
+30,Male,2,48000,10000,25,English,Product,No
+27,Female,2,64000,0,28,English,Startup,No
+46,Male,23,90000,96000,30,German,Consulting / Agency,No
+42,Female,12,47500,47500,28,German,Product,No
+40,Female,8,57000,1500,26,German,Product,No
+23,Male,5,45600,45600,30,English,Consulting / Agency,No
+30,Male,2,50000,55000,30,English,Product,No
+40,Male,11,75000,5000,30,German,Financial ,No
+38,Male,10,62000,0,30,German,Product,No
+28,Male,5,45000,0,20,English,Product,No
+38,Male,16,83000,11000,27,English,Startup,No
+32,Male,12,66300,1000,28,German,Product,No
+33,Female,6,65000,0,28,English,Startup,No
+34,Male,13,85000,0,32,English,Product,No
+35,Female,9,60000,0,30,English,Consulting / Agency,No
+37,Male,9,60000,0,30,English,Consulting / Agency,No
+33,Male,10,100000,0,30,English,Product,No
+36,Male,15,79300,11900,30,German,Product,No
+27,Male,5,48000,0,28,English,Consulting / Agency,No
+28,Male,6,60000,0,26,English,E-commerce,No
+23,Male,4,34000,0,28,English,Product,No
+34,Male,12,54000,0,28,English,Product,No
+34,Male,10,60000,0,28,English,Product,No
+29,Male,7,65000,20000,28,English,Startup,No
+38,Male,15,80000,6000,30,English,Corporation,No
+25,Female,4,60000,0,23,English,Startup,Yes
+23,Male,3,60000,6000,30,English,Product,No
+30,Male,10,75000,5000,30,English,Product,No
+32,Male,10,85000,0,24,English,Product,No
+28,Male,2,47000,0,26,German,Publishing and Technology,No
+31,Male,4,62000,8000,30,German,Product,No
+29,Male,6,56000,0,28,English,Startup,No
+42,Male,17,75000,8000,28,English,Startup,No
+40,Male,13,90000,10000,30,English,Product,No
+27,Male,6,82000,12000,30,English,Product,No
+29,Male,8,75000,0,30,English,Product,No
+37,Male,18,156000,0,0,English,Startup,No
+23,Male,5,53000,0,30,English,Product,No
+35,Male,14,77000,0,30,English,Startup,No
+39,Male,11,180000,150000,28,English,Product,No
+33,Male,10,55000,0,27,German,Product,No
+38,Male,15,100000,120000,27,English,Startup,No
+31,Male,3,70000,0,30,English,Startup,No
+24,Male,1,57600,7000,27,English,Consulting / Agency,No
+26,Female,2,47000,0,25,English,Consulting / Agency,No
+30,Male,10,70000,0,27,English,Startup,No
+33,Male,9,100000,0,29,German,Product,No
+33,Male,11,65000,0,28,English,Startup,No
+31,Male,10,80000,13500,27,English,Product,No
+33,Male,2,54000,0,30,English,Market Research ,No
+43,Male,21,72000,0,28,German,Consulting / Agency,No
+36,Male,14,78000,0,24,English,Startup,No
+33,Male,9,60000,25000,30,German,Consulting / Agency,No
+36,Female,1,60000,5000,26,English,Consulting / Agency,No
+27,Female,1,50000,0,27,English,Startup,No
+33,Male,12,120000,50000,30,English,Product,No
+33,Male,2,62000,0,30,English,Product,No
+40,Male,11,60000,1000,28,German,Product,No
+24,Female,2,58000,0,30,German,Consulting / Agency,No
+40,Male,17,81000,7000,30,German,Product,No
+37,Male,13,70000,0,25,English,Product,No
+35,Male,6,80000,0,30,English,Product,No
+39,Male,7,70000,70000,28,English,Startup,No
+25,Male,6,63700,1600,29,English,e-commerce,No
+27,Male,4,65000,0,30,English,Product,No
+30,Male,3,30000,0,30,English,Product,No
+28,Male,4,70000,5500,28,English,Product,No
+36,Female,10,48000,0,30,German,Product,No
+29,Female,9,66000,0,25,English,Startup,No
+37,Male,3,67000,0,21,English,Product,No
+34,Male,10,70000,0,28,English,Product,No
+39,Male,20,122000,45000,28,English,Product,No
+32,Male,6,58000,0,30,German,Product,Yes
+37,Male,6,69200,0,28,English,SaaS,No
+32,Male,7,72000,0,29,English,Startup,No
+35,Male,16,84000,0,28,English,Product,No
+26,Male,5,59000,0,26,English,Startup,No
+32,Male,7,68000,0,30,English,Startup,No
+36,Male,10,88000,0,28,German,Product,No
+26,Male,5,71000,0,27,English,Product,No
+28,Male,5,65000,0,30,English,Product,No
+36,Male,5,50000,15000,30,English,Startup,No
+40,Male,18,160000,0,15,German,Consulting / Agency,No
+29,Male,4,37500,0,16,Italian,Consulting / Agency,No
+32,Male,10,65000,5000,24,English,Startup,No
+28,Male,5,56000,8000,25,English,Startup,No
+27,Male,7,80000,0,26,English,Startup,No
+33,Male,16,83000,17000,27,English,Product,No
+34,Male,5,76500,0,3,English,Product,No
+31,Male,8,60000,0,30,English,Product,No
+31,Male,8,79000,5000,30,English,Product,No
+31,Male,5,90000,18000,27,English,Product,No
+27,Male,6,82000,38500,28,English,Product,Yes
+31,Male,9,50000,0,23,German,Product,No
+29,Male,10,78000,2000,30,English,Startup,No
+39,Male,6,60000,0,25,English,Product,No
+35,Male,10,75000,0,30,English,Startup,No
+38,Male,24,130000,0,30,English,Product,Yes
+31,Male,10,115000,25000,25,English,Startup,No
+32,Male,7,65000,0,24,English,Startup,No
+35,Male,10,75000,10000,28,English,Product,No
+28,Male,2,36000,2400,36,English,Product,No
+30,Female,6,76000,10000,27,English,Product,No
+30,Male,5,90000,1150000,26,English,Product,No
+26,Male,2,54000,1000,27,English,Product,No
+25,Male,3,65000,10000,27,English,Product,No
+30,Male,3,30000,0,30,English,Product,No
+27,Male,4,66000,6000,30,English,Consulting / Agency,No
+28,Male,7,60000,9000,28,English,Product,No
+22,Male,4,63000,0,30,English,Startup,No
+37,Female,2,62000,0,30,German,Publisher,No
+25,Male,1,51000,10000,28,English,Product,No
+33,Male,11,154000,0,22,German,Startup,No
+38,Male,20,200000,200000,0,English,Consulting / Agency,Yes
+25,Male,5,57000,0,24,English,Consulting / Agency,No
+26,Female,4,45000,0,25,English,Startup,Yes
+29,Male,3,43000,4300,28,English,Product,No
+22,Female,4,39000,0,24,English,Startup,No
+30,Male,4,73000,0,26,English,Product,No
+30,Male,11,74000,11000,28,English,Product,No
+28,Female,10,86000,30000,31,English,Product,No
+29,Male,9,74000,0,30,English,Startup,No
+32,Male,10,55000,55000,28,English,Product,No
+36,Male,4,40000,0,28,English,University,No
+32,Male,7,85000,5000,27,English,Product,No
+30,Female,4,56000,0,30,English,Product,No
+29,Male,7,70000,0,30,English,Product,No
+32,Female,10,68000,0,30,English,Product,No
+34,Male,10,70000,0,30,English,Product,No
+30,Male,6,72000,85000,27,English,Startup,No
+40,Male,15,80000,0,28,English,Product,No
+35,Male,15,77000,20000,30,English,Product,No
+31,Male,8,77000,0,27,English,Product,No
+38,Male,15,56000,59000,21,English,Product,No
+39,Male,10,80000,0,30,English,Energy ,No
+35,Male,13,90000,0,31,English,Startup,No
+30,Female,5,54000,0,28,English,Product,No
+29,Female,0,20000,20000,25,English,Product,No
+36,Male,18,98000,25000,30,English,Product,No
+41,Male,20,93000,1000,29,English,Product,No
+41,Male,18,100000,100000,28,English,Product,No
+28,Female,6,70000,0,27,English,Product,No
+33,Male,10,75000,0,26,English,Startup,No
+31,Male,3,63000,63909,30,German,Product,No
+29,Male,5,70000,0,27,English,Product,No
+23,Male,3,80000,100000,28,English,Product,No
+25,Male,4.5,75000,15000,30,English,Startup,No
+34,Male,10,85000,0,30,English,Startup,No
+45,Male,30,55000,0,24,English,Startup,No
+37,Male,15,78000,0,28,English,Product,No
+31,Male,9,99000,99000,30,English,Startup,No
+32,Male,15,90000,0,25,English,Product,No
+45,Female,15,52000,0,28,English,Product,No
+42,Male,16,36000,0,30,English,Product,No
+23,Male,4,45000,0,26,English,Product,No
+36,Male,14,75000,0,30,English,Product,No
+40,Male,20,85000,15000,30,English,Enterprise,No
+28,Male,7,95000,40000,28,English,Product,No
+35,Male,15,63000,7000,30,German,Product,No
+37,Male,12,102000,0,30,English,Startup,No
+33,Male,10,95000,15000,30,English,Product,No
+33,Male,13,78600,0,30,English,Product,No
+31,Male,10,70000,77000,28,English,Product,No
+31,Male,4,67000,70500,30,English,Product,No
+28,Male,3,42000,0,30,English,Consulting / Agency,No
+31,Male,6,53000,0,30,English,Consulting / Agency,No
+40,Male,20,250000,450000,45,English,Product,No
+25,Female,3,53000,5000,30,German,Product,No
+35,Male,9,77000,0,28,German,Startup,No
+35,Male,15,80000,80000,30,English,Consulting / Agency,No
+41,Male,20,58800,20700,35,German,Bloody enterprise,No
+33,Male,8,75000,1000,30,English,service,No
+33,Male,13,85000,5000,26,English,Startup,No
+38,Male,15,70000,75000,26,English,Product,No
+35,Male,10,78000,78000,27,German,Product,No
+36,Female,5,75000,0,28,English,Startup,No
+49,Male,27,57000,0,30,German,Consulting / Agency,No
+32,Male,10,120000,0,0,Deuglisch,Concern,Yes
+32,Female,6,75000,0,28,English,Startup,No
+27,Female,1,63000,0,27,English,Product,No
+31,Male,6,60000,15000,30,English,Consulting / Agency,No
+31,Male,8,60000,6000,30,English,Product,No
+28,Male,4,44000,6000,30,German,Product,No
+28,Female,3,54500,0,28,English,Product,No
+27,Male,2,90000,7000,31,English,Product,No
+29,Male,8,82500,0,30,English,Product,No
+32,Female,10,75000,0,27,English,Startup,Yes
+28,Male,5,60000,0,30,English,Product,No
+34,Female,13,108000,0,28,English,Product,No
+38,Male,16,85000,0,24,English,Product,No
+29,Male,3,54000,6000,30,German,Utilities,No
+30,Male,7,65000,9000,33,English,Product,No
+33,Female,6,42000,0,28,English,Product,Yes
+30,Male,6,51000,4250,30,German,Product,No
+31,Male,5,76000,20000,28,English,Startup,No
+37,Male,16,65000,0,30,English,Product,No
+32,Male,13,85000,89000,27,English,Bank,No
+32,Female,9,60000,0,30,German,Product,No
+40,Male,13,90000,10000,30,English,Product,No
+30,Male,7,86000,0,30,English,Product,No
+32,Male,10,81000,45000,30,English,Product,No
+32,Male,7,60000,0,30,English,Product,Yes
+34,Male,12,74000,0,30,English,Product,No
+43,Male,10,57600,8000,26,German,Product,No
+33,Male,13,70000,0,24,English,Startup,No
+28,Female,8,75000,0,30,English,Product,No
+33,Male,11,65000,0,28,English,Product,No
+33,Male,11,90000,0,28,English,Product,No
+51,Male,30,60000,5000,30,German,Consulting / Agency,No
+35,Male,8,90000,100000,30,English,Product,No
+35,Male,1,30000,0,26,German,Product,No
+28,Male,6,64000,9000,30,English,Product,No
+25,Male,2,44000,0,27,English,Product,No
+25,Female,1,12000,0,12,English,Product,No
+32,Male,10,80000,0,28,English,Product,No
+32,Male,9,73000,1000,28,English,Product,No
+26,Male,9,120000,50000,24,English,Product,Yes
+25,Male,6,71750,6000,30,English,Product,No
+27,Female,5,65000,0,30,English,Product,No
+28,Male,7,80000,0,29,English,Startup,No
+32,Female,8,60000,70000,26,English,Consulting / Agency,No
+28,Male,7,66000,3000,28,English,Product,No
+34,Male,13,85000,0,30,English,Product,No
+35,Male,10,65000,0,25,English,Product,No
+38,Male,20,130000,20000,30,English,Corporation,Yes
+36,Male,10,85000,0,30,English,Product,No
+31,Female,8,45000,0,30,English,Product,No
+43,Male,20,82000,12000,32,German,Product,No
+38,Male,15,100000,120000,27,English,Startup,No
+35,Male,17,72000,8000,30,English,Consulting / Agency,No
+32,Male,10,62000,0,30,English,Product,No
+43,Male,21,83000,0,28,German,Startup,No
+37,Male,17,77000,500,28,English,Product,No
+29,Male,5,65000,0,27,English,Product,No
+41,Male,18,120000,0,30,English,Startup,No
+38,Male,4,43000,0,30,English,Consulting / Agency,No
+29,Male,6,55000,0,30,German,Product,No
+35,Male,12,63000,0,30,English,Product,Yes
+41,Male,19,75000,0,27,English,Product,No
+29,Male,0,22000,2000,22,English,Product,No
+26,Female,5,65000,77000,30,German,Startup,No
+30,Male,6,65000,1000,27,English,Product,No
+26,Male,3,37000,0,25,English,Product,No
+35,Female,4,51000,4000,30,German,Insurance,No
+44,Male,15,60000,0,30,English,Consulting / Agency,No
+32,Male,13,70000,1000,25,English,Product,No
+33,Male,2,70000,6000,25,English,Product,No
+32,Male,8,65000,5000,30,English,Product,No
+26,Male,4,51000,0,30,English,Consulting / Agency,No
+43,Male,20,105000,0,30,English,Product,No
+33,Male,11,80000,0,30,English,Product,No
+35,Female,1,50000,0,30,German,Consulting / Agency,No
+28,Male,5,72000,0,28,German,Product,No
+36,Male,16,105000,150000,30,English,Product,Yes
+27,Male,2,49000,5000,30,German,Consulting / Agency,No
+36,Male,4,55000,0,28,English,Product,No
+38,Male,5,66000,0,28,English,Product,No
+28,Male,6,85000,10000,32,English,Product,No
+25,Male,8,85000,10000,24,English,Startup,No
+30,Male,6,79000,10000,27,English,Product,No
+30,Male,8,74000,11000,27,English,Product,No
+28,Male,8,67000,0,28,English,Startup,No
+32,Female,9,74000,10000,40,English,Product,No
+29,Male,3,48000,0,26,English,Consulting / Agency,No
+30,Female,8,57760,6710,30,English,Product,No
+35,Male,13,103000,200000,29,English,Startup,No
+33,Male,10,74000,0,28,English,Startup,No
+34,Male,13,70000,0,30,English,Product,No
+25,Male,6,86000,0,28,English,Startup,No
+42,Female,5,46000,0,26,English,Product,No
+25,Female,3,23000,23000,30,English,Science Institute ,No
+40,Male,14,135000,0,30,English,Product,No
+33,Male,11,80000,0,30,English,Research institute,No
+39,Male,12,75000,75000,30,German,Startup,No
+24,Male,2,50000,0,30,German,Product,No
+24,Female,3,29000,0,20,English,Startup,No
+39,Male,15,78000,12000,30,German,Product,No
+33,Male,8,75000,0,27,English,Product,No
+26,Male,2.5,60000,0,26,English,Product,No
+29,Male,6,70000,0,28,English,Product,No
+29,Female,5,55000,0,24,English,Startup,No
+32,Male,8,36000,3600,25,Czech,Product,No
+34,Male,12,56000,0,30,English,Product,No
+30,Male,9,85000,0,25,English,Startup,No
+31,Male,7,80000,12000,28,English,Product,No
+33,Male,8,75000,1000,30,English,Product,No
+31,Female,1,57000,1000,30,English,Retail,No
+36,Male,16,65000,0,30,German,Consulting / Agency,No
+30,Male,7,80000,0,30,English,Startup,No
+32,Male,11,100000,10000,30,English,Product,No
+35,Male,12,54000,0,27,English,Product,No
+34,Male,6,80000,10000,27,English,Product,No
+26,Male,4,60000,6000,27,English,Ecommerce,No
+29,Male,7,64000,1100,30,English,Consulting / Agency,No
+31,Male,12,60000,0,27,English,Product,No
+30,Male,8,73000,0,25,English,Startup,No
+33,Male,10,80000,10000,28,English,Product,No
+28,Male,6,83000,0,30,English,Product,No
+33,Male,7,42000,0,24,English,Product,No
+35,Male,3,68000,8000,26,English,E-Commerce,No
+35,Male,16,100000,30000,30,English,Product,No
+31,Male,8,80000,0,28,English,Product,No
+32,Male,13,48000,0,28,English,Product,No
+38,Male,15,75000,0,28,English,Product,No
+29,Male,9,85000,0,27,English,Product,No
+33,Male,13,110000,0,24,English,Product,No
+30,Male,7,70000,10000,26,English,Product,No
+32,Male,9,90000,0,30,English,Startup,No
+39,Male,10,85000,0,27,English,Product,No
+31,Male,6,110000,0,30,English,Product,No
+33,Male,10,110000,7000,30,English,Product,No
+30,Male,8,68000,0,30,English,Startup,No
+39,Female,11,93000,0,30,German,Product,No
+30,Female,2,45000,0,28,English,Product,No
+37,Male,15,80000,0,30,German,Consulting / Agency,Yes
+42,Male,20,65000,5000,27,English,Startup,No
+28,Male,6,65000,10000,28,English,Consulting / Agency,No
+31,Male,9,60000,65000,30,English,Product,No
+38,Male,15,80000,5000,30,English,Product,No
+35,Male,20,85000,0,26,English,Product,No
+31,Male,14,75000,0,30,English,Consulting / Agency,No
+37,Male,11,73000,30000,28,English,Product,No
+37,Male,12,90000,0,28,English,Product,No
+34,Male,9,80000,10000,27,English,Product,No
+25,Male,1,42000,50000,30,English,Startup,No
+42,Male,20,70000,0,30,English,Product,No
+35,Female,13,85000,0,26,English,Product,No
+37,Male,8,54000,0,30,German,Product,No
+33,Female,8,77000,0,27,English,Product,No
+46,Male,13,70000,3000,30,English,Product,No
+30,Male,11,80000,0,26,English,Product,No
+34,Male,13,65000,0,30,English,Product,No
+35,Male,15,85000,0,25,English,Product,No
+27,Male,4,70000,0,25,English,Startup,No
+31,Male,7,80000,10000,28,English,Product,Yes
+24,Male,2,60000,0,28,German,Consulting / Agency,No
+28,Male,7,90000,0,27,English,Startup,No
+42,Male,18,53000,0,26,English,Product,No
+27,Male,5,55000,0,24,English,Product,No
+30,Male,5,45000,0,30,English,Startup,No
+26,Male,2,58000,3000,28,English,Consulting / Agency,No
+37,Male,15,80000,15000,30,English,Product,No
+39,Male,8,130000,50000,30,English,Product,No
+30,Male,5,80000,90000,25,English,Startup,No
+44,Male,10,75000,80000,30,Russian,Product,No
+26,Male,5,180000,0,40,German,Consulting / Agency,No
+30,Male,10,151872,37968,30,English,Startup,No
+26,Male,3,48000,0,30,English,Product,No
+25,Female,1,57000,0,30,English,Product,No
+34,Male,11,80000,10000,25,French,Consulting / Agency,No
+38,Female,3,65000,0,30,German,Product,Yes
+40,Male,13,90000,10000,30,English,Product,No
+28,Male,5,50000,0,24,English,Consulting / Agency,No
+29,Female,2,52000,0,30,German,Consulting / Agency,No
+30,Female,5,51000,0,30,English,Startup,No
+28,Male,6,52800,4400,26,English,Consulting / Agency,No
+42,Male,12,95000,0,30,English,Product,No
+29,Male,4,61500,66500,30,English,Consulting / Agency,No
+29,Male,4,78000,4000,30,English,Semiconductor,No
+27,Female,1,42000,3000,28,German,Product,No
+37,Male,14,84000,84000,30,English,Product,No
+31,Male,10,100000,20000,30,English,Product,No
+35,Male,5,49000,0,26,English,Product,No
+27,Male,4,60000,80000,15,English,Consulting / Agency,No
+29,Male,6,68000,4500,28,English,Product,No
+36,Male,5,70000,0,28,English,Startup,No
+33,Male,10,70000,0,30,English,Consulting / Agency,No
+42,Male,12,95000,0,30,English,Product,No
+32,Female,1,48000,0,28,English,Startup,No
+30,Male,10,115000,17000,28,English,Consulting / Agency,No
+29,Female,4,60000,15900,30,English,Consulting / Agency,No
+35,Female,2,40000,0,30,English,Startup,No
+36,Male,14,81500,4500,30,English,Product,No
+34,Male,10,75000,7500,30,English,Product,No
+34,Male,12,94000,0,28,English,Product,No
+31,Male,4,100000,100000,20,English,Product,No
+34,Female,7,55000,0,25,English,Product,No
+33,Male,14,80000,0,28,German,Product,No
+33,Male,8,67000,6000,28,English,Product,No
+33,Male,12,56000,0,28,English,Product,No
+31,Male,5,77000,0,28,English,Product,No
+42,Male,12,95000,0,30,English,Product,No
+33,Male,5,70000,0,26,English,Product,No
+33,Male,7,90000,0,30,German,Product,No
+36,Male,9,64000,0,30,English,Consulting / Agency,No
+31,Male,9,67473,0,28,English,Product,No
+42,Male,12,95000,0,30,English,Product,No
+30,Male,7,100000,0,30,English,Startup,No
+32,Female,10,65000,6000,33,German,Product,No
+34,Male,16,91000,0,26,English,Startup,No
+35,Male,15,60000,0,30,English,Product,No
+33,Male,10,79000,0,30,English,Product,No
+39,Male,12,65000,6000,30,German,Consulting / Agency,No
+39,Female,13,108000,0,30,German,Automotive ,No
+25,Female,2,45000,45000,26,English,Startup,Yes
+34,Male,4,66000,0,30,English,Product,No
+28,Male,8,75000,6000,28,English,Product,No
+35,Male,6,66500,0,27,English,Product,No
+38,Male,8,64000,73000,30,German,Product,No
+34,Male,13,105000,15000,30,English,Startup,No
+36,Male,8,83000,0,30,English,Product,No
+30,Female,8,52000,0,28,German,Consulting / Agency,No
+27,Male,6,74000,21000,25,English,Product,No
+27,Male,5,56700,0,30,English,Product,No
+33,Male,7,54000,0,28,English,Startup,No
+29,Male,7,72000,0,25,English,Product,No
+30,Female,8,85000,7000,30,English and German,Utilities,No
+25,Male,2,65000,0,28,English,Consulting / Agency,No
+34,Male,14,100000,0,30,English,Product,No
+29,Male,8,77250,87250,27,English,Product,No
+36,Male,5,60000,0,26,English,Startup,No
+43,Male,20,70000,20000,25,English,Product,No
+32,Male,10,80000,85000,25,English,Startup,No
+28,Male,0,48000,0,30,English,Startup,Yes
+36,Male,20,74000,6000,28,German,Finance,No
+38,Female,14,70000,75000,32,German,Product,No
+27,Male,3,55000,0,30,German,Consulting / Agency,No
+26,Male,2,25000,1000,24,German,Product,No
+26,Male,2,48000,15000,25,English,Fintech,No
+34,Male,6,90000,1000,30,German,Product,No
+25,Male,0,58000,0,30,German,Handel ,No
+30,Male,3,65000,3000,30,English,Consulting and Product,No
+35,Male,10,50400,0,29,German,Consulting / Agency,No
+30,Male,7,68500,70000,26,English,Consulting / Agency,No
+26,Male,5,69000,2000,27,English,Product,No
+30,Female,7,48000,0,30,English,Product,No
+33,Female,6,58000,6000,30,German,Product,No
+26,Male,6,70000,71000,27,English,Product,No
+29,Male,6,57000,0,28,English,Startup,Yes
+36,Male,5,106000,106000,25,English,Product,No
+23,Male,3,49200,2000,21,English,Product,No
+41,Male,22,50000,0,31,Italian,Product,No
+28,Male,1,43000,43000,14,English,Startup,Yes
+35,Male,12,77000,12000,27,English,Startup,Yes
+37,Female,8,67000,0,28,English,Startup,No
+26,Male,4,21000,0,22,English,Product,No
+30,Male,5,40000,0,25,Spanish,Consulting / Agency,No
+24,Male,5,64000,0,20,English,Startup,No
+35,Male,6,90000,7500,30,English,Product,No
+27,Male,2,25300,3000,24,Italian,Consulting / Agency,No
+27,Female,6,85600,10000,25,English,Product,No
+29,Male,2,55200,0,30,English,Product,No
+29,Male,6,92000,14000,30,German,Product,No
+34,Male,14,96000,100000,29,English,Startup,No
+35,Male,12,85000,95000,37.5,English,Product,No
+54,Male,31,110000,100000,29,English,Consulting / Agency,No
+31,Male,6,90000,99000,28,English,Product,No
+30,Male,5,55000,55000,30,German,Product,No
+36,Male,15,172000,100000,25,English,Product,No
+28,Male,8,25000,2000,1,English,Startup,No
+36,Male,2,63000,0,30,English,Product,No
+26,Male,5,72000,0,23,English,Startup,No
+36,Male,14,65000,5000,30,German,Consulting / Agency,No
+33,Male,13,83000,0,30,English,Startup,No
+35,Male,6,200000,200000,14,English,Startup,No
+29,Male,5,115000,13000,25,English,Pharma,No
+36,Male,6,58000,0,30,English,Product,Yes
+35,Male,2,50000,500,45,English,Product,No
+29,Male,9,75000,0,25,English,Startup,Yes
+29,Male,11,140000,0,5,English,Startup,No
+32,Male,14,80000,5000,28,English,Startup,No
+32,Female,10,65000,3250,28,English,Product,No
+30,Male,7,49000,0,12,English,Startup,No
+30,Male,2,50000,5000,30,English,Startup,No
+30,Male,6,59000,0,28,English,Startup,No
+30,Male,5,52500,0,30,English,Startup,No
+48,Male,15,30000,0,30,English,Startup,Yes
+31,Male,7,83000,20000,26,English,Startup,No
+38,Male,15,59000,7000,30,English,Product,No
+22,Male,3,10001,0,0,English,Startup,Yes
+28,Male,3,50000,10000,21,English,Product,No
+29,Male,5,75000,0,24,English,Startup,Yes
+34,Male,5,54000,54000,28,English,Product,No
+27,Male,5,58000,58000,25,English,Startup,No
+34,Male,3,70000,0,30,English,Product,No
+28,Male,2,48000,0,30,English,Product,No
+40,Male,9,88000,5000,30,English,Product,No
+29,Male,5,57750,0,30,English,Startup,No
+27,Male,1,45000,45000,30,German,Product,No
+35,Female,5,75000,10000,30,English,Bank,No
+29,Male,9,113000,170000,25,English,Corporation ,No
+38,Male,12,74000,14000,30,English,Product,No
+32,Male,7,82000,82000,30,English,Product,No
+37,Male,10,82000,0,30,English,Product,No
+29,Male,6,64800,9450,30,English,Startup,No
+32,Male,7,70000,4000,30,German,Product,No
+40,Male,16,72000,5000,30,English,Product,No
+39,Male,12,82000,2000,30,English,Product,No
+32,Male,10,80000,40000,25,German,Transport & Logistics,No
+26,Female,5,65000,75000,28,English,Product,No
+30,Male,9,77000,0,26,English,Product,No
+32,Female,5,80000,0,30,German,Product,No
+32,Male,8,65000,0,30,English,Consulting / Agency,No
+31,Male,5,59064,66447,30,English,Product,No
+30,Male,10,90000,30000,30,English,Product,No
+30,Male,12,150000,20000,28,English,Product,No
+30,Female,8,70000,0,31,English,Product,No
+25,Male,5,53500,53500,29,English,Product,No
+30,Male,9,90000,0,25,English,Product,No
+26,Male,4,75000,82500,30,English,Startup,No
+32,Male,4,65000,65000,30,English,Consulting / Agency,No
+32,Female,8,60000,0,24,English,Product,Yes
+39,Male,16,62400,5000,30,Russian,Product,No
+31,Male,8,62000,4000,27,English,Product,No
+35,Male,1,30000,1000,20,German,Biergarten ,No
+38,Male,16,90000,0,36,English,Product,No
+32,Male,3,62000,3000,25,English,Product,No
+30,Female,9,60000,4000,28,English,Product,No
+34,Male,10,65600,800,30,English,Product,No
+36,Male,14,80000,0,30,English,Product,No
+26,Female,2,32000,0,30,German,Non-tech retail,No
+28,Female,3,53000,0,30,English,Product,No
+25,Male,6,65000,1000,30,English,Product,No
+28,Male,6,78000,0,26,English,Consulting / Agency,No
+26,Male,4,55500,0,25,English,Startup,No
+35,Male,20,100000,0,32,English,Product,No
+25,Male,1,38000,0,20,English,Consulting / Agency,No
+23,Female,1,36000,36000,28,English,Startup,No
+28,Male,3,65000,13000,30,English,Finance,No
+36,Male,10,100000,35000,28,English,Product,No
+30,Male,9,60000,2000,30,English,Research,No
+30,Male,9,60000,2000,30,English,Research,No
+28,Male,6,100000,18000,25,German,Product,No
+29,Male,5,66000,0,28,English,Product,No
+26,Female,4,64000,0,25,"Russian, English",Product,No
+26,Male,4,55000,0,26,English,Product,No
+31,Male,5,74000,3000,27,English,Product,No
+34,Female,11,60000,2000,30,German,Product,No
+34,Male,8,67500,2800,30,English,Product,No
+36,Male,13,90000,5000,30,English,Product,No
+36,Male,17,124000,107000,28,English,Product,No
+31,Male,7,75000,12500,30,English,Product,No
+28,Male,8,57000,0,28,English,Product,No
+28,Male,8,57000,0,28,English,Product,No
+36,Male,16,120000,120000,30,English,Startup,No
+26,Female,7,60000,0,24,English,Product,No
+30,Male,4,58000,0,24,English,Product,No
+35,Male,12,75000,95000,28,English,Product,No
+30,Male,10,71000,0,27,English,Product,No
+36,Male,15,52500,0,30,English,Product,No
+28,Male,5,50000,50000,25,Russian,Product,No
+42,Male,19,66000,4000,26,English,Product,No
+34,Male,14,95000,125000,28,English,Product,No
+27,Male,0,50000,5000,30,English,Startup,No
+36,Female,5,87000,15000,30,English,Product,No
+31,Male,4,68000,0,30,English,Startup,No
+32,Female,2,54000,1500,27,German,Consulting / Agency,No
+32,Male,13,83000,3000,30,English,Product,No
+36,Male,6,110000,25000,30,English,Startup,No
+26,Male,6,93000,10000,30,English,Startup,No
+28,Female,4,73700,80400,28,English,Product,No
+34,Male,10,85000,20000,28,English,Consulting / Agency,No
+38,Male,10,87550,0,30,German,Product,No
+37,Male,16,80000,0,27,English,Product,No
+31,Male,9,65000,5000,27,English,Startup,No
+38,Male,15,40700,0,25,English,Consulting / Agency,No
+24,Male,3,48000,7200,28,Русский,Product,No
+25,Male,2,60000,65000,28,German,Product,No
+33,Female,13,47745,3800,30,English,Product,No
+39,Female,2.5,60000,60000,30,English,corporate incubator,Yes
+25,Male,1,43500,0,28,German,Startup,No
+30,Female,7,60000,0,27,English,Product,No
+28,Female,5,60000,0,26,English,Consulting / Agency,No
+45,Male,19,90000,2500,30,English,Multinational ,No
+35,Male,14,98000,28000,30,English,Product,No
+25,Male,2,51000,3000,24,English,Startup,No
+31,Male,4,69000,0,28,English,Product,No
+25,Female,1.5,49850,500,25,English,Startup,No
+27,Male,2,50000,0,28,English,Product,No
+37,Male,12,65000,31500,26,English,Product,No
+27,Male,5,73000,4000,37,English,Industry,No
+32,Male,4,37500,0,24,German,Consulting / Agency,No
+28,Female,3,65000,0,30,English,Product,No
+35,Male,4,42000,0,28,English,Consulting / Agency,No
+36,Male,15,85000,3000,28,English,Product,No
+32,Male,5,70000,5000,24,German,Startup,No
+22,Male,2,45000,7000,30,German,Bank,Yes
+35,Male,13,68000,0,26,English,Product,No
+32,Female,5,50400,0,29,English,Product,No
+28,Male,4,55000,0,22,English,Product,No
+30,Male,5,55000,60000,30,English,Product,No
+40,Male,15,90000,10000,30,English,Product,No
+27,Female,5,75000,0,24,English,Product,No
+32,Male,10,80000,0,24,English,Startup,No
+33,Male,5,61000,63000,30,English,Consulting / Agency,No
+31,Male,4,50000,0,30,English,Product,No
+30,Male,5,69000,5000,30,German,Product,No
+32,Male,10,75000,5000,27,English,Product,No
+32,Male,12,95000,8000,25,Russian,Product,No
+25,Male,7,70000,6000,28,English,Consulting / Agency,No
+34,Male,10,74000,0,30,English,Product,No
+29,Male,5,65000,0,30,English,Product,No
+29,Male,5,65000,0,30,English,Product,No
+30,Male,10,85000,25,28,English,Product,No
+24,Male,3,77000,20000,30,English,FAANG,No
+35,Male,10,60000,5000,30,English,Consulting / Agency,No
+31,Male,6,60000,2000,30,English,Consulting / Agency,No
+27,Male,2,68000,2000,28,English,Product,No
+38,Male,1,45500,45500,28,English,Startup,No
+34,Male,12,72000,8000,28,English,Product,No
+35,Male,4,67000,5000,30,English,Product,No
+35,Male,17,85000,2000,30,English,Consulting / Agency,No
+36,Male,10,75000,0,30,English,Product,No
+29,Male,7,82000,0,28,English,Consulting / Agency,No
+35,Male,15,85000,10000,30,English,Product,No
+31,Female,4,60000,0,28,English,Startup,Yes
+25,Female,4,45000,45000,28,English,Product,No
+24,Male,0.8,11500,0,24,English,Consulting / Agency,No
+34,Male,14,84000,92000,21,English,Product,No
+42,Male,2,80000,7000,30,German,Old industry,No
+37,Female,7,46000,2000,30,German,Product,No
+32,Male,8,75000,0,26,English,Product,No
+26,Female,8,40000,2000,36,German,Product,No
+35,Male,15,100000,0,30,English,Consulting / Agency,No
+43,Male,18,115000,6000,25,English,Product,No
+41,Male,15,99000,1200,39,German,Product,No
+33,Male,8,90000,20000,25,English,Product,No
+44,Male,15,72000,0,30,English,Product,No
+28,Male,5,54000,10000,27,English,Startup,No
+34,Female,10,45000,0,30,German,Product,No
+28,Male,3,45000,0,25,English,Startup,No
+26,Male,2.5,60000,60000,30,English,Product,Yes
+39,Male,15,75000,75000,24,English,Startup,No
+32,Male,6,92000,5000,25,English,Startup,No
+36,Male,15,90000,0,30,English,Startup,No
+27,Female,3,17500,1250,22,English,Consulting / Agency,No
+32,Female,2,63000,3000,27,English,Product,No
+37,Female,7,75000,16000,28,English,Startup,No
+56,Male,30,110000,110000,25,English,Product,No
+30,Male,4.5,60000,10000,24,English,Startup,No
+27,Male,6,70000,75000,30,English,Product,No
+29,Male,6,70000,10000,27,English,Product,No
+24,Male,3.5,70000,0,27,English,Product,No
+27,Male,0,40000,0,30,German,Consulting / Agency,No
+28,Male,7,62000,700,26,English,Product,No
+40,Male,14,57000,3000,24,English,Product,No
+32,Male,9,90000,0,34,English,Product,No
+35,Female,5,60000,0,28,English,Startup,No
+32,Male,11,72500,10000,27,English,Product,No
+30,Male,9,75000,10000,27,English,Startup,No
+30,Male,9,85000,90000,24,English,Product,No
+36,Male,16,62500,0,32,English,Product,No
+33,Male,7,65900,15900,30,English,Product,No
+33,Male,15,85000,15000,28,English,Product,No
+32,Male,13,95000,35000,30,English,Product,No
+34,Male,12,75000,7500,27,English,Product,No
+54,Male,25,75000,5000,29,English,Consulting / Agency,No
+28,Male,4,30000,0,24,Spanish,Consulting / Agency,No
+28,Female,5,64000,2000,28,English,Product,No
+29,Female,6,51000,0,28,English,Startup,No
+38,Male,6,110000,70000,28,English,Product,No
+33,Male,11,107000,90000,24,English,Product,No
+36,Male,12,100000,15000,30,English,Startup,No
+36,Male,15,70000,2000,26,English,Product,No
+37,Male,15,70000,7000,28,English,Product,No
+36,Male,15,68000,3000,30,English,Consulting / Agency,No
+33,Male,10,100000,5000,30,English,Startup,No
+33,Male,12,70200,0,30,German,Consulting / Agency,No
+31,Male,7,75000,0,28,English,Product,No
+36,Male,14,75000,0,20,English,Consulting / Agency,No
+31,Male,9,85000,0,28,English,Startup,No
+36,Male,10,66000,6000,30,German,Consulting / Agency,No
+37,Male,17,90000,0,30,English,Consulting / Agency,No
+30,Male,3,58000,0,30,English,Startup,No
+30,Male,11,90000,90000,29,English,Product,No
+27,Male,5,35000,0,28,English,Product,No
+33,Female,10,47500,0,25,English,Outsourse,No
+35,Male,10,65000,0,25,English,Startup,No
+26,Male,5,72000,0,30,English,Product,No
+29,Male,9,73000,16000,30,English,Product,No
+31,Male,4,50000,0,25,English,Product,No
+36,Male,10,68000,2000,30,English,Product,No
+29,Male,6,70000,30000,28,English,Product,No
+30,Female,3,57600,0,30,English,Product,No
+30,Male,8,68000,1500,26,English,Product,No
+29,Male,5,75000,0,25,English,Product,No
+34,Male,14,95000,5000,30,English,Product,No
+30,Male,10,82000,0,29,English,Startup,No
+34,Male,14,90000,40000,30,English,Product,No
+27,Male,8,52000,0,28,English,Product,No
+26,Male,5,65000,0,24,Russian,Startup,No
+35,Male,12,100000,10000,30,English,Product,No
+44,Male,20,95000,15000,30,German,Product,Yes
+34,Male,3.5,55000,55000,30,German,Consulting / Agency,No
+45,Male,20,200000,15000,30,German,freelance,No
+31,Male,10,85000,85000,27,English,Startup,No
+24,Male,5,68250,0,27,English,Product,No
+27,Male,7,63000,0,30,English,Consulting / Agency,No
+34,Male,6,63000,0,25,English,Startup,No
+28,Male,7,63000,4000,30,English,Product,No
+25,Male,5,65000,2000,30,English,Product,No
+35,Male,12,75000,0,28,English,Product,No
+33,Female,10,60000,60000,30,German,Product,No
+26,Male,5,20000,2000,24,Russian,Product,Yes
+26,Male,5,20000,2000,24,Russian,Product,Yes
+39,Male,7,76000,3000,30,English,Product,Yes
+37,Male,15,84700,1000,29,English,Product,No
+27,Male,3,52000,0,27,German,Product,No
+38,Male,16,95000,105000,30,English,Product,No
+31,Female,4,50500,0,30,English,Product,No
+30,Male,10,68000,0,26,English,Product,No
+32,Male,10,130000,0,30,English,Product,No
+32,Male,10,95000,0,24,English,Startup,No
+28,Male,5,55000,0,30,English,Product,No
+38,Male,18,90000,20000,26,German,Product,No
+34,Male,7,108500,0,25,English,Startup,No
+31,Male,9,70000,72000,26,English,Product,Yes
+39,Male,15,110000,0,28,English,eCommerce,No
+26,Male,7,38350,40950,27,German,Product,No
+26,Male,2,65000,6500,30,English,Startup,No
