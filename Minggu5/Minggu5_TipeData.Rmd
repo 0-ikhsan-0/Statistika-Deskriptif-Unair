@@ -1,0 +1,64 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+
+library(readxl)
+AllData <- read_excel("JK, TB, Umur, Pend.xlsx")
+View(AllData)
+
+# Pengolahan Data Nominal
+# Menggunakan data Jenis kelamin
+JK = table(AllData$`Jenis Kelamin`)
+
+text(barplot(JK, main = "Perbandingan Frekuensi Jenis Kelamin", col = c("red", "blue")), 20, JK)
+
+persen <- round(JK/sum(JK)*100)
+NewJK <- paste(persen, "%", sep = " ")
+pie(JK, radius = 1, labels = NewJK, col = c("red", "blue"), main = "Perbandingan Frekuensi Jenis Kelamin")
+
+plot(JK, ylab = "frekuensi", main = "Perbandingan Frekuensi Jenis Kelamin")
+
+text(plot(JK, ylab = "frekuensi", main = "Perbandingan Frekuensi Jenis Kelamin", type = "p"), 20, JK)
+
+# Pengolahan Data Ordinal
+# Menggunakan data Pendidikan Terakhir
+Pend = table(AllData$`Pendidikan Terakhir`)
+
+text(barplot(Pend, main = "Perbandingan Frekuensi Tingkat Pendidikan", col = rainbow(3)), 20, Pend)
+
+pie(Pend, radius = 1, labels = Pend, col = rainbow(3), main = "Perbandingan Frekuensi Tingkat Pendidikan")
+legend(1, 0.5, c("SD", "SMP", "SMA"), cex = 1, fill = rainbow(3), xjust = -0.25)
+
+plot(Pend, ylab = "frekuensi", main = "Perbandingan Frekuensi Tingkat Pendidikan")
+
+text(plot(Pend, ylab = "frekuensi", main = "Perbandingan Frekuensi Tingkat Pendidikan", type = "p"), 20, Pend)
+
+# Pengolahan Data Rasio
+# Menggunakan data Tinggi Badan
+TB <- table(AllData$`Tinggi Badan`)
+
+text(barplot(TB, main = "Perbandingan Frekuensi Tinggi Badan", col = rainbow(31), xlab = "Tinggi Badan", ylab = "frekuensi"), 2, TB)
+
+pie(TB, radius = 1,clockwise = FALSE, col = rainbow(31), main = "Perbandingan Frekuensi Tinggi Badan")
+
+hist(TB, col = rainbow(8), main = "Perbandingan Frekuensi Tinggi Badan")
+
+plot(TB)
+
+plot(TB, type = "p")

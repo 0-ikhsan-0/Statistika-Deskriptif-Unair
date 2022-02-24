@@ -1,0 +1,60 @@
+# Import data
+library(readxl)
+JmlGuruSD <- read_excel("D:/ikhsan/UNAIR/SEMESTER 2/STATISTIKA DESKRIPTIF/Task/JmlGuru.xlsx", range = "A2:C22")
+
+library(readxl)
+Jml2018_MEI <- read_excel("D:/ikhsan/UNAIR/SEMESTER 2/STATISTIKA DESKRIPTIF/Task/Jml2018_5.xlsx", range = "A2:D269")
+
+library(readxl)
+Jml2019_MEI <- read_excel("D:/ikhsan/UNAIR/SEMESTER 2/STATISTIKA DESKRIPTIF/Task/Jml2019_5.xlsx", range = "A2:D269")
+
+library(readxl)
+PenjMotor <- read_excel("D:/ikhsan/UNAIR/SEMESTER 2/STATISTIKA DESKRIPTIF/Task/PenjMotor.xlsx")
+
+# membuat Bar-plot (1 data)
+BarGuru <- barplot(JmlGuruSD$`2019/2020`, col = rainbow(20) , main = "Jumlah Guru SD di Kabupaten Temanggung tahun ajaran 2019/2020", xlab = "Kecamatan", ylab = "Jumlah", names.arg = c( "Prk", "Kledung", "Bnsr", "Bulu", "Tmg", "Tlgmy", "Tmbrk", "Slpg", "Krg", "Prsrt", "Klr", "Knd", "Kedu", "Ngd", "Jumo", "Gmw", "Cdrt", "Bejen", "Tretep", "Wnby"))
+text(BarGuru, 20, JmlGuruSD$`2019/2020`)
+
+# membuat Bar-plot (2 data)
+barplot(t(matrix(NewData,nrow = 20, ncol = 2, byrow = FALSE, dimnames = list(c("Prk", "Kledung", "Bnsr", "Bulu", "Tmg", "Tlgmy", "Tmbrk", "Slpg", "Krg", "Prsrt", "Klr", "Knd", "Kedu", "Ngd", "Jumo", "Gmw", "Cdrt", "Bejen", "Tretep", "Wnby")) )), main = "Jumlah Guru SD di Kabupaten Temanggung", xlab = "Tahun ajaran", col = c("green", "blue"), beside = TRUE, legend = c("2018/2019", "2019/2020"), args.legend = list(cex = 0.8, x = "topright"))
+
+# membuat Pie-chart (1 data)
+pie(JmlGuruSD$`2019/2020`,radius = 1, clockwise = TRUE, labels = JmlGuruSD$`2019/2020`, main = "Jumlah Guru SD di Kabupaten Temanggung tahun ajaran 2019/2020", col = rainbow(20))
+colors = rainbow(20)
+legend(1, 0.5, c("Parakan", "Kledung", "Bansari", "Bulu", "Temanggung", "Tlogomulyo", "Tembarak", "Selopampang", "Kranggan", "Pringsurat", "Kaloran", "Kandangan", "Kedu", "Ngadirejo", "Jumo", "Gemawang", "Candiroto", "Bejen", "Tretep", "Wonoboyo"), cex = 0.55, fill = colors, xjust = -0.5, yjust = 0.73)
+
+# membuat Pie-chart (2 data)
+par(mfrow = c(1,2))
+pieA = pie(JmlGuruSD$`2018/2019`,radius = 1, clockwise = TRUE, labels = JmlGuruSD$`2018/2019`, main = "Jumlah Guru SD di Kabupaten Temanggung tahun ajaran 2018/2019", col = rainbow(20))
+pieB = pie(JmlGuruSD$`2019/2020`,radius = 1, clockwise = TRUE, labels = JmlGuruSD$`2019/2020`, main = "Jumlah Guru SD di Kabupaten Temanggung tahun ajaran 2019/2020", col = rainbow(20))
+par(mfrow = c(1,1))
+
+# membuat Line-plot (1 data)
+plot(PenjMotor$Tahun, PenjMotor$Honda, type = "o", col = "blue")
+
+# membuat Line-plot (2 data)
+Tahun = PenjMotor$Tahun
+Motor = PenjMotor$Honda
+Yamaha = PenjMotor$Yamaha
+Suzuki = PenjMotor$Suzuki
+plot(Tahun, Motor, ylim = c(0,6), type = "o", col = "blue", main = "Data Penjualan Sepeda Motor di Indonesia pada Tahun 2005-2016 (dalam Juta)")
+lines(Tahun, Yamaha, type = "o", col = "red")
+lines(Tahun, Suzuki, type = "o", col = "Orange")
+legend(2006, 6, c("Honda", "Yamaha", "Suzuki"), cex = 0.8, col = c("blue", "red", "orange"), lty = 30)
+
+# membuat Histogram (1 data)
+hist(Jml2018_MEI$JUMLAH, main = "Jumlah Kematian di DKI Jakarta pada Bulan Mei 2018", xlab = "Jumlah Kematian", ylab = "Frekuensi Kelurahan")
+
+# membuat Box-plot (dengan outlier)
+boxplot(Jml2019_MEI$JUMLAH)
+boxplot.stats(Jml2019_MEI$JUMLAH)$out
+
+# membuat Box-plot (tanpa outlier)
+boxplot(Jml2018_MEI$JUMLAH)
+boxplot.stats(Jml2018_MEI$JUMLAH)$out
+
+# membuat Scatter-plot (dengan outlier)
+plot(Jml2019_MEI$JUMLAH, xlab = "Index Kelurahan", ylab = "Jumlah Kematian", main = "Data Kematian di DKI Jakarta pada bulan Mei 2019")
+
+# membuat Scatter-plot (tanpa outlier)
+plot(Jml2018_MEI$JUMLAH, xlab = "Index Kelurahan", ylab = "Jumlah Kematian", main = "Data Kematian di DKI Jakarta pada bulan Mei 2018")
