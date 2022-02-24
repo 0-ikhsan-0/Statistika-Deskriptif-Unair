@@ -1,0 +1,272 @@
+library(extraDistr)
+library(Rlab)
+library(STAT)
+
+# help
+?runif
+?rnorm
+?rt
+?chisq
+?rf
+?rexp
+?rweibull
+?rgamma
+?rbeta
+
+# 1. cdf
+# Uniform
+punif(1, min=0, max=1)
+punif(20, min=0, max=50)
+punif(50, min=0, max=200)
+
+# Normal
+pnorm(10,15,5)
+pnorm(20, 45, 10)
+pnorm(50, 100, 25)
+
+# T
+pt(12, 5, 10)
+pt(25, 10, 20)
+pt(100, 50, 125)
+
+# Chi Squared
+pchisq(10, 20, 2)
+pchisq(20, 25, 5)
+pchisq(25, 5, 25)
+
+# F
+pf(10, 15, 40, 100)
+pf(5, 20, 55, 75)
+pf(6, 26, 75, 80)
+
+# Exponensial
+pexp(1, 1)
+pexp(5, 0.75)
+pexp(15,0.25)
+
+# Weibull
+pweibull(10, 0.25, 1)
+pweibull(20, 0.75, 1)
+pweibull(25, 0.1, 1)
+
+# Gamma
+pgamma(5, 1, 1/2)
+pgamma(15, 2, 1/6)
+pgamma(100, 20, 1/4)
+
+# Beta
+pbeta(0.2, 5, 10, 1)
+pbeta(0.5, 10, 20, 2)
+pbeta(0.8, 10, 15, 5)
+
+# 2. pmf
+# Uniform
+dunif(3, min=0, max=15)
+dunif(10, min=0, max=80)
+dunif(100, min=0, max=250)
+
+# Normal
+dnorm(2, 2.5, 0.5)
+dnorm(5, 8, 1)
+dnorm(15, 12, 2)
+
+# T
+dt(1, 10, 5)
+dt(5, 2, 10)
+dt(20, 2, 1)
+
+# Chi Squared
+dchisq(2, 1, 10)
+dchisq(5, 10, 1.5)
+dchisq(15, 2, 25)
+
+# F
+df(2, 5, 10, 1)
+df(20, 10, 2, 25)
+df(125, 5, 1, 10)
+
+# Exponensial
+dexp(1, 1)
+dexp(25, 0.25)
+dexp(50, 0.1)
+
+# Weibull
+dweibull(5, 1, 2)
+dweibull(15, 2, 10)
+dweibull(25, 2, 100)
+
+# Gamma
+dgamma(7.5, 2, 1/5)
+dgamma(25, 1, 1/10)
+dgamma(20, 5, 1/20)
+
+# Beta
+dbeta(0.5, 1, 2, 5)
+dbeta(0.25, 5, 4, 10)
+dbeta(0.8, 2, 8, 20)
+
+# 3. Kasus
+# Uniform
+# Dari 5 kandidat, akan dipilih 1 orang menjadi ketua. Tentukan nilai E(x) dan Var(x)! #Penyelesaian
+E = (1+2+3+4+5)/5
+cat('Nilai E(x) = ',E)
+Var = ((1-3)^2+(2-3)^2+(3-3)^2+(4-3)^2+(5-3)^2)/5
+cat('Nilai Var(x) = ',Var)
+
+# Normal
+# Dalam suatu kelas terdapat 40 siswa, 9 anak diantaranya akan dijadikan sampel pengukuran tinggi badan. Didapatkan data sebagai berikut: 165, 170, 169, 168, 156, 160, 175, 162, 169. Hitunglah E(x) dan Var(x) nya! #Penyelesaian
+E = (165+170+169+168+156+160+175+162+ 169)/9
+cat('Nilai E(x) = ',E)
+Var = sqrt(((165-E)^2+(170-E)^2+(169-E)^2+(168-E)^2+(156-E)^2+(160- E)^2+(175-E)^2+(162-E)^2+(169-E)^2)/(9-1))
+cat('Nilai Var(x) = ',Var)
+
+# T
+# Suatu sampling terhadap air sungai di Kota A dilakukan oleh Dinas Kesehatan Kota A untuk menentukan apakah rata‐rata jumlah bakteri per unit volume air di sungai tersebut masih di bawah ambang batas aman yaitu 200. Kemudian, peneliti di dinas tersebut mengumpulkan 10 sampel air per unit volume dan menemukan jumlah bakterinya 175, 190, 215, 198, 184, 207, 210, 193, 196, dan 180. Lakukan pengujian menggunakan taraf signifikansi α=5%.
+#Penyelesaian
+data.t <- c(175, 190, 215, 198, 184, 207, 210, 193, 196, 180)
+x <- mean(data.t)
+stdev <- sd(data.t)
+cat('rata-rata =', x)
+cat('standar deviasi =', stdev)
+uji_stat <-(x-200)/(stdev/sqrt(length(data.t)))
+cat('t = ', uji_stat)
+pval <- pt(uji_stat,
+df=length(data.t)-1)
+cat('p-value = ', pval)
+
+# Chi Squared
+# Diketahui terdapat 10 mesin di suatu pabrik yang mengalami kendala disetiap harinya. Dari data yang ada diketahui bahwa kendala tersebut memiliki nilai λ = 0.5 tentukan nilai mean dan variansnya!
+#Penyelesaian
+n = 10
+lambda = 0.5
+E = n + lambda
+Var = n/(2^(lambda/2))
+cat('Nilai E(x) = ',E)
+cat('Nilai Var(x) = ',Var)
+
+# F
+
+# Exponensial
+# Hari-hari antara kecelakaan kereta api 2000-2010 berikut distribusieksponensial dengan rata-rata 12 hari antara setiap kecelakaan. Jika satu terjadi pada 1 Juli setiap tahun tertentu, berapa varians dari waktu antara kecelakaan di tahun tersebut?
+#Penyelesaian
+E = 12
+cat('Nilai E(x) = ',E)
+Var = 1/(E^2)
+cat('Nilai Var(x) = ',Var)
+
+# Weibull
+# Sebuah komponen kompresor mesin kapal selam mengalami kegagalan dalam beberapa jam, hal tersebut akhirnya dimodelkan sebagai variabel weibull dengan diketahui α = 1/4 dan β = 48 jam. Tentukan rata-rata waktu kegagalan dan variansnya! #Penyelesaian
+α = 1/4
+β = 48
+faktorial=function(a){
+  f=1
+  i=1
+  for (i in 1:4){
+    f=f*i
+  }
+}
+cat("faktorialnya =",f,"\n")
+E = 48*f
+cat('Nilai E(x) = ',E,"jam")
+faktorialvar=function(α){
+  f1=1
+  i1=1
+  for (i1 in 1:(2/α)){
+    f1=f1*i1
+  }
+}
+cat("faktorialnya =",f1,"\n")
+faktorial.var=function(n){
+  f2=1
+  i2=1
+  for (i2 in 1:(2/(1/4)^2)){
+    f2=f2*i2
+  }
+}
+cat("faktorialnya =",f2,"\n")
+Var = f1-f2
+cat('Nilai Var(x) = ',Var)
+
+# Gamma
+#Variabel acak kontinu X yang menyatakan ketahanan suatu bantalan peluru (dalam ribuan jam) yang diberi pembebanan dinamik pada suatu putaran kerja tertentu mengikuti suatu distribusi gamma dengan α = 3 dan β = 10, maka probabilitas sebuah bantalan peluru dapat digunakan selama 30 ribu sampai 60 ribu jam dengan pembenandinamik pada putaran kerja tersebut adalah . . .
+#Penyelesaian
+α =3
+β =10
+E = α/β
+Var = sqrt(α/(β^2))
+cat('Nilai E(x) = ',E)
+cat('Nilai Var(x) = ',Var)
+
+# Beta
+# Bila proporsi suatu televisi merk tertentu membutuhkan perbaikan selama tahun pertama pemakaiannya yang merupakan suatu peubah acak berdistribusi beta dengan α = 6 dan β = 4, tentukan nilai mean dan variansnya!
+#Penyelesaian
+α = 6
+β = 4
+E = α/(α+β)
+Var = α*β/(α+β+1)*((α+β)^2)
+cat('Nilai E(x) = ',E)
+cat('Nilai Var(x) = ',Var)
+
+# 4. Histogram
+# Uniform
+hist(runif(5000, min=0, max=1))
+hist(runif(5000, min=0, max=100))
+hist(runif(5000, min=50, max=1000))
+hist(runif(5000, min=100, max=1000))
+hist(runif(5000, min=250, max=5000))
+
+# Normal
+hist(rnorm(5000, 0.1, 0.5))
+hist(rnorm(5000, 10, 0.5))
+hist(rnorm(5000, 0.1, 100))
+hist(rnorm(5000, 100, 25))
+hist(rnorm(5000, 500, 2500))
+
+# T
+hist(rt(5000, 1, 100))
+hist(rt(5000, 5, 0.5))
+hist(rt(5000, 10, 100))
+hist(rt(5000, 25, 2500))
+hist(rt(5000, 200, 2500))
+
+# Chi Squared
+hist(rchisq(5000, 1, 1))
+hist(rchisq(5000, 10, 100))
+hist(rchisq(5000, 15, 4))
+hist(rchisq(5000, 200, 0.5))
+hist(rchisq(5000, 1000, 0.0001))
+
+# F
+hist(rf(5000, 1, 2, 0))
+hist(rf(5000, 10, 15, 0.1))
+hist(rf(5000, 20, 50, 20))
+hist(rf(5000, 100, 150, 200))
+hist(rf(5000, 2000, 1125, 0.4))
+
+# Exponensial
+hist(rexp(5000, 0.01))
+hist(rexp(5000, 1))
+hist(rexp(5000, 10))
+hist(rexp(5000, 500))
+hist(rexp(5000, 2500))
+
+# Weibull
+hist(rweibull(5000, 0.1, 1))
+hist(rweibull(5000, 1, 0.1))
+hist(rweibull(5000, 1, 10))
+hist(rweibull(5000, 5, 100))
+hist(rweibull(5000, 5, 5000))
+
+# Gamma
+hist(rgamma(5000, 1, 1/0.5))
+hist(rgamma(5000, 100, 1/0.5))
+hist(rgamma(5000, 500, 1/50))
+hist(rgamma(5000, 1000, 1/200))
+hist(rgamma(5000, 5, 1/1000))
+
+# Beta
+hist(rbeta(5000, 1, 100, 0))
+hist(rbeta(5000, 1, 100, 1000))
+hist(rbeta(5000, 100, 1, 1000))
+hist(rbeta(5000, 20, 1000, 5000))
+hist(rbeta(5000, 20, 2000, 0.001))

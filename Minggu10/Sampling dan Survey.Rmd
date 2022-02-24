@@ -1,0 +1,117 @@
+install.packages("tigerstats")
+library(tigerstats)
+
+#Random sample
+MyData1 <- rbinom(100000, 100, 0.25)
+#Output <- as.data.frame(MyData1)
+
+RandomData <- 1
+DataMean <- 1
+for(i in 1:500){
+  RandomData <- sample(MyData1, 1000, replace=TRUE)
+  print(RandomData)
+  DataMean[i] <- mean(RandomData)
+}
+hist(DataMean)
+
+#Systematic Sample
+systematicdata <- 1
+datamean2 <- 1
+i <- 1
+repeat {
+  systematicdata <- sample(mydata, 1000, replace=TRUE)
+  print(systematicdata)
+  datamean2[i] <- mean(systematicdata)
+  i = i + 3
+  if ( i == 1501)
+  {
+    break
+  }
+}
+datamean2 <- na.omit(datamean2)
+hist(datamean2)
+
+#Stratified Sample
+stratifiedsample <- 1
+datamean3 <- 1
+meanstratif <- 1
+i <- 1
+repeat {
+  stratifiedsample <- sample(mydata, 1000, replace=TRUE)
+  print(stratifiedsample)
+  meanstratif <- mean(stratifiedsample)
+  if( meanstratif < 525 )
+    {
+    datamean3[i] <- meanstratif
+  }
+  i = i + 1
+  if(i == 501)
+    {
+    break
+  }
+}
+datamean3 <- na.omit(datamean3)
+hist(datamean3)
+
+
+
+
+
+#Random Sample
+meanRandom <- NA
+for (i in 1:500){
+  dataAwal <- rbinom(100000, 100, 0.28)
+  Random <- sample(dataAwal, 1000)
+  print(Random)
+  print(mean(Random))
+  meanRandom[i] <- mean(Random)
+}
+hist(meanRandom)
+
+#Systematic Sample
+meanSystematic <- NA
+randomSystematic <- NA
+for (i in 1:500){
+  j <- 1
+  n <- 1
+  data2 <- rbinom(100000, 10, 0.24)
+  while (j <= 100000 && n <= 1000){
+    if (j == n*4){
+      randomSystematic[n] <- data2[j]
+      n=n+1
+    }
+    j=j+1
+  }
+  print(randomSystematic)
+  print(mean(randomSystematic))
+  meanSystematic[i] <- mean(randomSystematic)
+}
+hist(meanSystematic)
+
+#Stratified Sample
+meanStratified <- NA
+randomStratified <- NA
+for (i in 1:500){
+  j <- 1
+  n <- 1
+  data3 <- rbinom(100000, 100, 0.37)
+  while (j <= 100000 && n <= 500){
+    if (data3[j] <= 25){
+      randomStratified[n] <- data3[j]
+      n = n+1
+    }
+    j = j+1
+  }
+  j <- 1
+  while (j <= 100000 && n <= 1000){
+    if (data3[j] <= 50 && data3[j] > 25){
+      randomStratified[n] <- data3[j]
+      n = n+1
+    }
+    j = j+1
+  }
+  print(randomStratified)
+  print(mean(randomStratified))
+  meanStratified[i] <- mean(randomStratified)
+}
+hist(meanStratified)
